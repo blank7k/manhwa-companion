@@ -16,7 +16,7 @@
 
 * **By Mood/Genre**: Get manhwa suggestions tailored to your mood.
 * **By Title**: Enter a title, and our AI recommends similar manhwa.
-* **By Likes**: Get smart suggestions based on your liked manhwa (localStorage or Firestore).
+
 
 ### 🔐 Auth & User Features
 
@@ -86,21 +86,13 @@ manhwa-companion/
 
 ---
 
-## 🧠 How AI is Used
 
-* GPT-powered endpoint for:
-
-  * **Title-based recommendations**
-  * **Mood-based recommendations**
-  * **Summary simplification + mood tagging** (in earlier versions)
-* Fallback logic using genre/mood matching if AI fails or limit exceeds.
 
 ---
 
 ## 📝 To-Do / Roadmap
 
 * [ ] Reading progress tracking
-* [ ] In-app reader (if legal APIs allow)
 * [ ] Notifications for new chapters
 * [ ] Public user profiles or forums
 
