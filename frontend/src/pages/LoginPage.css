@@ -1,0 +1,30 @@
+/* src/pages/LoginPage.css */
+.login-container {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00e0ff;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}
+

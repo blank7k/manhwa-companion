@@ -1,0 +1,171 @@
+.manhwa-detail-page {
+  padding: 100px 20px 20px;
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detail-card {
+  display: flex;
+  background: #1e1e1e;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 1000px;
+  width: 100%;
+  gap: 30px;
+}
+
+.detail-cover {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-info h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+.genres {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.genre-tag {
+  background-color: #333;
+  color: #00e0ff;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.actions {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.ratings-section,
+.comments-section {
+  margin-top: 30px;
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ratings-section h3,
+.comments-section h3 {
+  margin-top: 0;
+  border-bottom: 2px solid #00e0ff;
+  padding-bottom: 10px;
+}
+
+/* Star Rating Styles */
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.star-filled {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.star-empty {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.stars p {
+  font-size: 1rem;
+  margin-left: 15px;
+  color: #ccc;
+}
+
+/* Comment Section Styles */
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.comment-form textarea {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 80px;
+  margin-bottom: 10px;
+}
+
+.comment-form button {
+  align-self: flex-end;
+  background-color: #00e0ff;
+  color: #111;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment-item {
+  background: #333;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.comment-item strong {
+  color: #00e0ff;
+}
+
+.comment-item p {
+  margin: 5px 0 0;
+}
+
+.comment-item small {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.delete-comment-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #aaa;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.delete-comment-btn:hover {
+  color: #ff4d4f;
+} 

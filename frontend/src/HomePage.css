@@ -1,0 +1,106 @@
+.homepage-container {
+  padding: 80px 20px 20px;  /* top padding increased */
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  
+}
+
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs .active {
+  background-color: #00e0ff;
+  color: #000;
+}
+
+.manhwa-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.manhwa-card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 12px;
+  width: 240px;
+  height: 420px; /* Set a fixed height */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  word-wrap: break-word;
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+
+.manhwa-card:hover {
+  transform: translateY(-4px);
+}
+
+.manhwa-cover {
+  width: 100%;
+  height: 260px; /* Adjust image height to ensure content is visible */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.summary {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.moods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+
+.mood-tag {
+  background: #444;
+  color: #00e0ff;
+  padding: 4px 8px;
+  margin-right: 6px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust margin for new position */
+}
+
+.card-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
