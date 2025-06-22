@@ -4,37 +4,46 @@ import json
 import time
 
 def fetch_mangadex_summary_and_image(title):
+    print(f"📘 Fetching from MangaDex for: {title}")
     try:
-        res = requests.get(
-            "https://api.mangadex.org/manga",
-            params={"title": title, "limit": 1, "includes[]": ["cover_art"]},
-            timeout=10
-        )
-        res.raise_for_status()
-        data = res.json().get("data", [])
-        if not data:
+        # First, search for the manga to get its ID
+        search_url = "https://api.mangadex.org/manga"
+        search_params = {"title": title, "limit": 1, "includes[]": ["cover_art"]}
+        search_res = requests.get(search_url, params=search_params, timeout=15)
+        search_res.raise_for_status()
+        
+        search_data = search_res.json().get("data", [])
+        if not search_data:
+            print(f"⚠️ No result found on MangaDex for '{title}'")
             return {"summary": "", "image": ""}
 
-        manga = data[0]
+        manga = search_data[0]
         manga_id = manga["id"]
         attributes = manga["attributes"]
-        summary = attributes["description"].get("en", "").strip()
+        summary = attributes.get("description", {}).get("en", "No summary available.").strip()
 
-        cover_filename = ""
-        for rel in manga["relationships"]:
-            if rel["type"] == "cover_art":
-                cover_filename = rel["attributes"]["fileName"]
-                break
-        cover_url = f"https://uploads.mangadex.org/covers/{manga_id}/{cover_filename}" if cover_filename else ""
+        # Find the cover art relationship
+        cover_art_relationship = next((rel for rel in manga.get("relationships", []) if rel.get("type") == "cover_art"), None)
+        
+        if not cover_art_relationship:
+            print(f"⚠️ No cover art relationship found for '{title}'")
+            return {"summary": summary, "image": ""}
 
-        return {
-            "summary": summary or "",
-            "image": cover_url
-        }
+        cover_filename = cover_art_relationship.get("attributes", {}).get("fileName")
+        if not cover_filename:
+            print(f"⚠️ Cover art filename not found for '{title}'")
+            return {"summary": summary, "image": ""}
 
+        image_url = f"https://uploads.mangadex.org/covers/{manga_id}/{cover_filename}"
+        print(f"✅ Found image for '{title}': {image_url}")
+        return {"summary": summary, "image": image_url}
+
+    except requests.exceptions.RequestException as e:
+        print(f"❌ MangaDex request failed for '{title}': {e}")
+        return {"summary": "Error fetching summary.", "image": ""}
     except Exception as e:
-        print(f"❌ MangaDex fetch failed for '{title}': {e}")
-        return {"summary": "", "image": ""}
+        print(f"💥 An unexpected error occurred while fetching MangaDex data for '{title}': {e}")
+        return {"summary": "Error fetching summary.", "image": ""}
 
 def scrape_mangabtt_top_all():
     url = "https://manhwabtt.cc/find-story?status=-1&sort=10"
