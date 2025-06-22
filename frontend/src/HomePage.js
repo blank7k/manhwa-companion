@@ -100,7 +100,7 @@ const HomePage = () => {
         onClick={() => handleCardClick(manhwa)}
       >
         <img
-          src={manhwa.image || 'https://i.imgur.com/8FwB3sI.png'}
+          src={manhwa.image || 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
           alt={manhwa.title}
           className="manhwa-cover"
           loading="lazy"
