@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { auth, db } from "./firebase";
 import "./HomePage.css";
+import "./TitleRecommendation.css";
+import { getSuggestions, getTitleRecommendations } from './api';
+import { debounce } from 'lodash';
 
 const TitleRecommendation = () => {
   const [title, setTitle] = useState("");
@@ -67,35 +70,30 @@ const TitleRecommendation = () => {
     });
   };
 
-  const handleChange = async (e) => {
-    const input = e.target.value;
-    setTitle(input);
-
-    if (input.length < 3) {
-      setSuggestions([]);
-      return;
-    }
-
-    try {
-      const res = await fetch(
-        `http://localhost:8000/mangadex-suggestions?title=${encodeURIComponent(
-          input
-        )}`
-      );
-      const data = await res.json();
-
-      if (data.suggestions) {
-        setSuggestions(data.suggestions);
+  // Debounced fetch for suggestions
+  const debouncedFetchSuggestions = useCallback(
+    debounce(async (query) => {
+      if (query) {
+        try {
+          const suggestions = await getSuggestions(query);
+          setSuggestions(suggestions);
+        } catch (error) {
+          console.error("Error fetching suggestions:", error);
+        }
       } else {
         setSuggestions([]);
       }
-    } catch (err) {
-      console.error("Suggestion fetch error:", err);
-      setSuggestions([]);
-    }
+    }, 300),
+    []
+  );
+
+  const handleTitleChange = (e) => {
+    const input = e.target.value;
+    setTitle(input);
+    debouncedFetchSuggestions(input);
   };
 
-  const handleSubmit = async () => {
+  const handleRecommend = async () => {
     if (!title.trim()) return;
     setLoading(true);
     setError("");
@@ -103,20 +101,11 @@ const TitleRecommendation = () => {
     setSuggestions([]); // clear suggestions when submitting
 
     try {
-      const res = await fetch("http://localhost:8000/recommend-title", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ title, summary }),
-      });
-
-      const data = await res.json();
+      const data = await getTitleRecommendations(title, summary);
       if (data.error) throw new Error(data.error);
       if (data.fallback) {
         setError("⚠️ No strong match found. Showing closest recommendations.");
       }
-
       setRecommendations(data.recommendations);
     } catch (err) {
       console.error("Recommendation error:", err);
@@ -127,123 +116,93 @@ const TitleRecommendation = () => {
   };
 
   return (
-    <div className="homepage-container" style={{ position: "relative" }}>
+    <div className="homepage-container title-recommendation-container">
       <h2>🔎 Title-Based Recommendations</h2>
 
-      <div style={{ position: "relative", width: "300px" }}>
-        <input
-          type="text"
-          placeholder="Enter title..."
-          value={title}
-          onChange={handleChange}
-          style={{ padding: "8px", width: "100%" }}
+      <div className="search-section">
+        <div className="search-input-container">
+          <input
+            type="text"
+            placeholder="Enter title..."
+            value={title}
+            onChange={handleTitleChange}
+            className="search-input"
+          />
+
+          {suggestions.length > 0 && (
+            <ul className="suggestions-list">
+              {suggestions.map((s, i) => (
+                <li
+                  key={i}
+                  className="suggestion-item"
+                  onClick={() => {
+                    setTitle(s);
+                    setSuggestions([]);
+                  }}
+                >
+                  {s}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        <textarea
+          placeholder="Optional: enter short summary"
+          value={summary}
+          onChange={(e) => setSummary(e.target.value)}
+          rows={3}
+          className="summary-textarea"
         />
 
-        {suggestions.length > 0 && (
-          <ul
-            style={{
-              position: "absolute",
-              top: "100%",
-              left: 0,
-              right: 0,
-              background: "white",
-              color: "black",
-              listStyle: "none",
-              padding: "0",
-              margin: "0",
-              border: "1px solid #ccc",
-              zIndex: 9999,
-              maxHeight: "200px",
-              overflowY: "auto",
-              borderRadius: "4px",
-            }}
-          >
-            {suggestions.map((s, i) => (
-              <li
-                key={i}
-                onClick={() => {
-                  setTitle(s);
-                  setSuggestions([]);
-                }}
-                style={{
-                  padding: "8px",
-                  cursor: "pointer",
-                  borderBottom: "1px solid #eee",
-                }}
-              >
-                {s}
-              </li>
-            ))}
-          </ul>
-        )}
+        <button onClick={handleRecommend} className="search-button">
+          🔍 Recommend
+        </button>
+
+        {error && <div className="error-message">{error}</div>}
       </div>
 
-      <textarea
-        placeholder="Optional: enter short summary"
-        value={summary}
-        onChange={(e) => setSummary(e.target.value)}
-        rows={3}
-        style={{
-          display: "block",
-          marginTop: "10px",
-          width: "90%",
-          padding: "8px",
-        }}
-      />
+      {loading && <div className="loading-message">Loading recommendations...</div>}
 
-      <button
-        onClick={handleSubmit}
-        style={{ marginTop: "10px", padding: "8px 16px" }}
-      >
-        🔍 Recommend
-      </button>
-
-      {loading && <p>Loading...</p>}
-      {error && <p style={{ color: "red" }}>{error}</p>}
-
-      <div className="manhwa-list">
-        {recommendations.map((manhwa, i) => (
-          <div
-            className="manhwa-card"
-            key={i}
-            onClick={() => handleCardClick(manhwa)}
-          >
-            {manhwa.image && (
-              <img
-                src={manhwa.image}
-                alt={manhwa.title}
-                className="manhwa-cover"
-              />
-            )}
-            <h3>{manhwa.title}</h3>
-            <div className="card-footer">
-              <p>
-                {manhwa.chapter && (
-                  <>
-                    <strong>Chapter:</strong> {manhwa.chapter}
-                  </>
-                )}
-              </p>
-              <button
-                className="like-button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  toggleLike(manhwa);
-                }}
-              >
-                {isLiked(manhwa.title) ? "❤️" : "🤍"}
-              </button>
+      {recommendations.length > 0 && (
+        <div className="manhwa-list">
+          {recommendations.map((item, i) => (
+            <div
+              className="manhwa-card"
+              key={i}
+              onClick={() => handleCardClick(item)}
+            >
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="manhwa-cover"
+                />
+              )}
+              <h3>{item.title}</h3>
+              <div className="card-footer">
+                <p>
+                  <strong>Chapter:</strong> {item.chapter}
+                </p>
+                <button
+                  className="like-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleLike(item);
+                  }}
+                >
+                  {isLiked(item.title) ? "❤️" : "🤍"}
+                </button>
+              </div>
+              <div className="moods">
+                {(item.genre || []).slice(0, 3).map((g, j) => (
+                  <span key={j} className="mood-tag">{g}</span>
+                ))}
+              </div>
             </div>
-            <div className="moods">
-              {(manhwa.genre || []).map((tag, j) => (
-                <span key={j} className="mood-tag">
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -9,6 +9,8 @@ import {
 import { useNavigate } from "react-router-dom";
 import { auth, db } from "./firebase";
 import "./HomePage.css";
+import "./LikedManhwa.css";
+import { searchManhwa } from './api';
 
 const LikedManhwa = () => {
   const [user, setUser] = useState(null);
@@ -75,20 +77,14 @@ const LikedManhwa = () => {
     });
   };
 
-  const fetchSearch = async (query) => {
+  const handleSearch = async (e) => {
+    e.preventDefault();
+    if (!searchTerm.trim()) return;
     try {
-      const res = await fetch(`http://localhost:8000/mangadex-search?title=${encodeURIComponent(query)}`);
-      const result = await res.json();
-      if (result.error) {
-        setSearchError(result.error);
-        setSearchResults([]);
-      } else {
-        setSearchResults([result]);
-        setSearchError("");
-      }
-    } catch (err) {
-      setSearchError("❌ Failed to fetch from API.");
-      setSearchResults([]);
+      const data = await searchManhwa(searchTerm);
+      setSearchResults([data]); // Assuming the API returns a single object
+    } catch (error) {
+      console.error("Error searching manhwa:", error);
     }
   };
 
@@ -98,7 +94,7 @@ const LikedManhwa = () => {
     if (typingTimeout) clearTimeout(typingTimeout);
     setTypingTimeout(
       setTimeout(() => {
-        if (value.trim()) fetchSearch(value.trim());
+        if (value.trim()) handleSearch(e);
       }, 600)
     );
   };
@@ -147,31 +143,35 @@ const LikedManhwa = () => {
       </div>
     ));
 
+  const displayList = searchResults.length > 0 ? searchResults : likedManhwa;
+
   return (
-    <div className="homepage-container">
+    <div className="homepage-container liked-manhwa-container">
       <h2>❤️ Liked Manhwa</h2>
-      <div style={{ marginBottom: "20px" }}>
+      
+      <div className="search-section">
         <input
           type="text"
           placeholder="Search and add manhwa..."
           value={searchTerm}
           onChange={handleTyping}
-          style={{ padding: "8px", width: "300px", borderRadius: "6px" }}
+          className="search-input"
         />
       </div>
 
       {searchResults.length > 0 && (
-        <div className="manhwa-list" style={{ marginBottom: "30px" }}>
+        <div className="manhwa-list search-results">
           {renderCards(searchResults, true)}
         </div>
       )}
-      {searchError && <p style={{ color: "red" }}>{searchError}</p>}
+      
+      {searchError && <div className="search-error">{searchError}</div>}
 
       <div className="manhwa-list">
-        {likedManhwa.length === 0 ? (
-          <p>No liked manhwa yet.</p>
+        {displayList.length === 0 ? (
+          <div className="empty-state">No liked manhwa yet.</div>
         ) : (
-          renderCards(likedManhwa)
+          renderCards(displayList)
         )}
       </div>
     </div>

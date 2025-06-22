@@ -5,11 +5,14 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth, db } from "./firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import "./HomePage.css";
+import { useAuth } from './hooks/useAuth';
+import { getAllManhwa } from './api';
 
 const YourUpdates = () => {
   const [updates, setUpdates] = useState([]);
   const [likedManhwa, setLikedManhwa] = useState([]);
   const navigate = useNavigate();
+  const { user } = useAuth();
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
@@ -26,14 +29,11 @@ const YourUpdates = () => {
 
     const fetchUpdates = async (liked) => {
       try {
-        const res = await fetch("http://localhost:8000/all-manhwa");
-        const data = await res.json();
+        const data = await getAllManhwa();
         const allManhwa = data.data || [];
+        const likedTitles = new Set(liked.map(m => m.title));
         const updatedManhwa = allManhwa.filter((m) =>
-          liked.find(
-            (like) =>
-              like.title.toLowerCase().trim() === m.title.toLowerCase().trim()
-          )
+          likedTitles.has(m.title.toLowerCase().trim())
         );
         setUpdates(updatedManhwa);
       } catch (err) {
@@ -42,7 +42,7 @@ const YourUpdates = () => {
     };
 
     return () => unsubscribe();
-  }, []);
+  }, [user, likedManhwa]);
 
   const isLiked = (title) => likedManhwa.some((item) => item.title === title);
 

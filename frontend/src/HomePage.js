@@ -6,6 +6,13 @@ import { auth, db } from "./firebase"; // ✅ Add this if not already present
 import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore"; // ✅
 import { onAuthStateChanged } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { FaHeart, FaRegHeart } from 'react-icons/fa';
+import { useAuth } from './hooks/useAuth';
+import { getAllManhwa, getTopAllManhwa } from './api';
+
+import LikedManhwa from "./LikedManhwa";
+import YourUpdates from "./YourUpdates";
+import TitleRecommendation from "./TitleRecommendation";
 
 const HomePage = () => {
   const [todayList, setTodayList] = useState([]);
@@ -13,6 +20,8 @@ const HomePage = () => {
   const [activeTab, setActiveTab] = useState("today");
   const navigate = useNavigate();
   const [likedManhwa, setLikedManhwa] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [manhwaList, setManhwaList] = useState([]);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
@@ -42,19 +51,19 @@ const HomePage = () => {
   }, []);
 
   useEffect(() => {
-    const endpoint = activeTab === "today" ? "/all-manhwa" : "/top-all";
-    if (activeTab === "today" || activeTab === "topall") {
-      fetch(`http://localhost:8000${endpoint}`)
-        .then((res) => res.json())
-        .then((data) => {
-          if (activeTab === "today") {
-            setTodayList(data.data || []);
-          } else {
-            setTopAllList(data.data || []);
-          }
-        })
-        .catch((err) => console.error("Failed to fetch manhwa:", err));
-    }
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const endpoint = activeTab === 'today' ? getAllManhwa : getTopAllManhwa;
+        const result = await endpoint();
+        setManhwaList(result.data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
   }, [activeTab]);
 
   const isLiked = (title) => likedManhwa.some((item) => item.title === title);

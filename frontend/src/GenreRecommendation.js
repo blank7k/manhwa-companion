@@ -136,7 +136,17 @@ const GenreRecommendation = () => {
       <select
         value={selectedGenre}
         onChange={(e) => setSelectedGenre(e.target.value)}
-        style={{ padding: "8px", marginBottom: "20px" }}
+        style={{ 
+          padding: "12px 16px", 
+          marginBottom: "20px",
+          border: "1px solid #555",
+          borderRadius: "8px",
+          backgroundColor: "#333",
+          color: "white",
+          fontSize: "1rem",
+          minWidth: "200px",
+          cursor: "pointer"
+        }}
       >
         {Object.keys(genreTagMap).map((genre) => (
           <option key={genre} value={genre}>
@@ -146,7 +156,7 @@ const GenreRecommendation = () => {
       </select>
 
       {loading ? (
-        <p>Loading...</p>
+        <p style={{ textAlign: "center", color: "#00e0ff", padding: "20px" }}>Loading...</p>
       ) : (
         <div className="manhwa-list">
           {results.map((item, i) => (

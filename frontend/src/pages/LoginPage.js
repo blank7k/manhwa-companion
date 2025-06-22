@@ -120,27 +120,39 @@ function LoginPage() {
 
   return (
     <div className="login-container">
-      <h2>Login to ManhwaHub</h2>
-      <form onSubmit={handleLogin}>
+      <h1>Login to ManhwaHub</h1>
+      <form className="login-form" onSubmit={handleLogin}>
         <input
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-        /><br />
+        />
         <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
-        /><br />
+        />
         <button type="submit">Login</button>
       </form>
 
-      <p>or</p>
-      <button onClick={handleGoogleLogin}>Login with Google</button>
+      <p style={{ margin: "20px 0", color: "#ccc" }}>or</p>
+      <button onClick={handleGoogleLogin} style={{ 
+        backgroundColor: "#4285f4", 
+        color: "white",
+        padding: "12px 24px",
+        border: "none",
+        borderRadius: "8px",
+        cursor: "pointer",
+        fontSize: "1rem",
+        minWidth: "120px",
+        transition: "background-color 0.2s ease"
+      }}>
+        Login with Google
+      </button>
 
       {error && <p className="error-text">{error}</p>}
     </div>

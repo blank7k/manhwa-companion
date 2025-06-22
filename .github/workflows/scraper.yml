@@ -2,8 +2,8 @@ name: Scrape Manga Updates
 
 on:
   schedule:
-    # Runs every hour
-    - cron: "0 * * * *"
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 jobs:
@@ -23,12 +23,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 # Add any other scraping dependencies
 
-      - name: Run scraper
-        run: python manga_scraper.py # Or the name of your main scraper script
+      - name: Run ManhwaClan scraper
+        run: python scraper.py
+
+      - name: Run ManhwaBTT scraper
+        run: python manga_scraper.py
+
+      - name: Set up PAT for pushing
+        run: |
+          git config --global user.name "GitHub Actions Scraper"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://blank7k:${{ secrets.PAT_TOKEN }}@github.com/blank7k/manhwa-companion.git
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "GitHub Actions Scraper"
           git config --global user.email "actions@github.com"
           git add manhwa_db.json manga_top_all.json # Add all JSON files that are updated
-          git diff --staged --quiet || (git commit -m "Update manga data" && git push) 
+          git diff --staged --quiet || (git commit -m "Update manga data" && git push)
+
+      - name: Trigger Render redeploy
+        if: success()
+        run: curl -X POST "https://api.render.com/deploy/srv-d1c24q6mcj7s73abfqag?key=aJuSJc-zMtA" 

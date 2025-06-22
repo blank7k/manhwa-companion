@@ -7,6 +7,7 @@ import { signOut, onAuthStateChanged } from "firebase/auth";
 
 function Navbar() {
   const [user, setUser] = useState(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -21,37 +22,58 @@ function Navbar() {
     try {
       await signOut(auth);
       navigate("/login");
+      setIsMobileMenuOpen(false);
     } catch (err) {
       console.error("Logout failed", err);
     }
   };
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <Link to="/" className="logo-link">📚 GO-Manhwa</Link>
-      </div>
+    <>
+      <nav className="navbar">
+        <div className="navbar-logo">
+          <Link to="/" className="logo-link" onClick={closeMobileMenu}>📚 GO-Manhwa</Link>
+        </div>
 
-      <ul className="navbar-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/recommendation">AI Recommendation</Link></li>
-        <li><Link to="/your-updates">Your Updates</Link></li>
-        <li><Link to="/liked">Liked Manhwa</Link></li>
-      </ul>
+        <button className="hamburger" onClick={toggleMobileMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-      <div className="navbar-user">
-        {user ? (
-          <>
-            <span className="username">
-              <Link to="/profile">{user.displayName || user.email}</Link>
-            </span>
-            <button onClick={handleLogout} className="logout-btn">Logout</button>
-          </>
-        ) : (
-          <Link to="/login" className="login-link">Login</Link>
-        )}
-      </div>
-    </nav>
+        <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
+          <li><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
+          <li><Link to="/recommendation" onClick={closeMobileMenu}>AI Recommendation</Link></li>
+          <li><Link to="/your-updates" onClick={closeMobileMenu}>Your Updates</Link></li>
+          <li><Link to="/liked" onClick={closeMobileMenu}>Liked Manhwa</Link></li>
+        </ul>
+
+        <div className="navbar-user">
+          {user ? (
+            <>
+              <span className="username">
+                <Link to="/profile" onClick={closeMobileMenu}>{user.displayName || user.email}</Link>
+              </span>
+              <button onClick={handleLogout} className="logout-btn">Logout</button>
+            </>
+          ) : (
+            <Link to="/login" className="login-link" onClick={closeMobileMenu}>Login</Link>
+          )}
+        </div>
+      </nav>
+      <div 
+        className={`navbar-overlay ${isMobileMenuOpen ? 'active' : ''}`}
+        onClick={closeMobileMenu}
+      ></div>
+    </>
   );
 }
 

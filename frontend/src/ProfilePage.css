@@ -20,16 +20,18 @@
   
 .rename-form input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 15px;
     border-radius: 6px;
     border: 1px solid #555;
     background-color: #333;
     color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
   
 .rename-form button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
     background-color: #00e0ff;
     color: #111;
@@ -37,6 +39,8 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    font-size: 1rem;
+    min-width: 120px;
 }
   
 .rename-form button:hover {
@@ -46,9 +50,75 @@
 .success-message {
     color: #4caf50;
     margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(76, 175, 80, 0.1);
+    border-radius: 6px;
+    border-left: 4px solid #4caf50;
 }
   
 .error-message {
     color: #ff4d4f;
     margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(255, 77, 79, 0.1);
+    border-radius: 6px;
+    border-left: 4px solid #ff4d4f;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+    .profile-page-container {
+        padding: 80px 15px 15px;
+        margin: 0 10px;
+        border-radius: 8px;
+    }
+    
+    .profile-page-container h2, .profile-page-container h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .rename-form input {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .rename-form button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    
+    .success-message,
+    .error-message {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-page-container {
+        padding: 70px 10px 10px;
+        margin: 0 5px;
+    }
+    
+    .profile-page-container h2, .profile-page-container h3 {
+        font-size: 1.3rem;
+    }
+    
+    .rename-form input {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+    
+    .rename-form button {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+    
+    .success-message,
+    .error-message {
+        font-size: 0.85rem;
+        padding: 6px;
+    }
 } 
