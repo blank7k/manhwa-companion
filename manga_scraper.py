@@ -89,7 +89,7 @@ def scrape_mangabtt_top_all():
             json.dump(all_data, f, indent=2, ensure_ascii=False)
         print(f"✅ Scraped {len(all_data)} manhwa and saved to manga_top_all.json")
     else:
-        print("❌ No manhwa scraped.")
+        print("❌ No manhwa scraped. Preserving old manga_top_all.json.")
 
 if __name__ == "__main__":
     scrape_mangabtt_top_all()
