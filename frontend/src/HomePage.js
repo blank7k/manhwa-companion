@@ -15,40 +15,18 @@ import YourUpdates from "./YourUpdates";
 import TitleRecommendation from "./TitleRecommendation";
 
 const HomePage = () => {
-  const [todayList, setTodayList] = useState([]);
-  const [topAllList, setTopAllList] = useState([]);
   const [activeTab, setActiveTab] = useState("today");
-  const navigate = useNavigate();
-  const [likedManhwa, setLikedManhwa] = useState([]);
-  const [loading, setLoading] = useState(false);
   const [manhwaList, setManhwaList] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const { user, likedManhwa: initialLikedManhwa, loading: authLoading } = useAuth();
+  const [likedManhwa, setLikedManhwa] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (user) => {
-      if (user) {
-        // User is logged in, fetch from Firestore
-        const docRef = doc(db, "likes", user.uid);
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          setLikedManhwa(docSnap.data().items || []);
-        } else {
-          setLikedManhwa([]);
-        }
-      } else {
-        // User is a guest, use local storage
-        const guestId = localStorage.getItem("guestId");
-        if (guestId) {
-          const guestLikes =
-            JSON.parse(localStorage.getItem(`likes_${guestId}`)) || [];
-          setLikedManhwa(guestLikes);
-        } else {
-          setLikedManhwa([]);
-        }
-      }
-    });
-
-    return () => unsubscribe(); // Cleanup subscription
-  }, []);
+    if (!authLoading) {
+      setLikedManhwa(initialLikedManhwa);
+    }
+  }, [initialLikedManhwa, authLoading]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -63,7 +41,10 @@ const HomePage = () => {
         setLoading(false);
       }
     };
-    fetchData();
+
+    if (activeTab === 'today' || activeTab === 'topall') {
+      fetchData();
+    }
   }, [activeTab]);
 
   const isLiked = (title) => likedManhwa.some((item) => item.title === title);
@@ -174,12 +155,12 @@ const HomePage = () => {
         </button>
       </div>
 
-      {activeTab === "today" && (
-        <div className="manhwa-list">{renderCards(todayList)}</div>
+      {(loading || authLoading) && <div className="loading-spinner">Loading...</div>}
+
+      {!loading && !authLoading && (activeTab === 'today' || activeTab === 'topall') && (
+        <div className="manhwa-list">{renderCards(manhwaList)}</div>
       )}
-      {activeTab === "topall" && (
-        <div className="manhwa-list">{renderCards(topAllList)}</div>
-      )}
+      
       {activeTab === "genre" && <GenreRecommendation />}
     </div>
   );
