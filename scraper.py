@@ -93,7 +93,7 @@ def scrape_manhwaclan():
             json.dump(all_data, f, indent=2, ensure_ascii=False)
         print(f"✅ Scraped {len(all_data)} titles and saved to manhwa_db.json")
     else:
-        print("❌ No data scraped.")
+        print("❌ No data scraped. Preserving old manhwa_db.json.")
 
 if __name__ == "__main__":
     scrape_manhwaclan()
