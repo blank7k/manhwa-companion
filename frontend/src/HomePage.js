@@ -99,14 +99,12 @@ const HomePage = () => {
         key={i}
         onClick={() => handleCardClick(manhwa)}
       >
-        {manhwa.image && (
-          <img
-            src={manhwa.image}
-            alt={manhwa.title}
-            className="manhwa-cover"
-            loading="lazy"
-          />
-        )}
+        <img
+          src={manhwa.image || 'https://i.imgur.com/8FwB3sI.png'}
+          alt={manhwa.title}
+          className="manhwa-cover"
+          loading="lazy"
+        />
         <h3>{manhwa.title}</h3>
         <div className="card-footer">
           <p>
