@@ -5,6 +5,7 @@ import time
 
 def fetch_mangadex_summary_and_image(title):
     print(f"📘 Fetching from MangaDex for: {title}")
+    placeholder_image = "https://via.placeholder.com/280x420.png?text=No+Image"
     try:
         # First, search for the manga to get its ID
         search_url = "https://api.mangadex.org/manga"
@@ -15,7 +16,7 @@ def fetch_mangadex_summary_and_image(title):
         search_data = search_res.json().get("data", [])
         if not search_data:
             print(f"⚠️ No result found on MangaDex for '{title}'")
-            return {"summary": "", "image": ""}
+            return {"summary": "", "image": placeholder_image}
 
         manga = search_data[0]
         manga_id = manga["id"]
@@ -27,12 +28,12 @@ def fetch_mangadex_summary_and_image(title):
         
         if not cover_art_relationship:
             print(f"⚠️ No cover art relationship found for '{title}'")
-            return {"summary": summary, "image": ""}
+            return {"summary": summary, "image": placeholder_image}
 
         cover_filename = cover_art_relationship.get("attributes", {}).get("fileName")
         if not cover_filename:
             print(f"⚠️ Cover art filename not found for '{title}'")
-            return {"summary": summary, "image": ""}
+            return {"summary": summary, "image": placeholder_image}
 
         image_url = f"https://uploads.mangadex.org/covers/{manga_id}/{cover_filename}"
         print(f"✅ Found image for '{title}': {image_url}")
@@ -40,10 +41,10 @@ def fetch_mangadex_summary_and_image(title):
 
     except requests.exceptions.RequestException as e:
         print(f"❌ MangaDex request failed for '{title}': {e}")
-        return {"summary": "Error fetching summary.", "image": ""}
+        return {"summary": "Error fetching summary.", "image": placeholder_image}
     except Exception as e:
         print(f"💥 An unexpected error occurred while fetching MangaDex data for '{title}': {e}")
-        return {"summary": "Error fetching summary.", "image": ""}
+        return {"summary": "Error fetching summary.", "image": placeholder_image}
 
 def scrape_mangabtt_top_all():
     url = "https://manhwabtt.cc/find-story?status=-1&sort=10"
