@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every 6 hours
     - cron: "0 */6 * * *"
-  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -16,12 +16,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10" # or your preferred version
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 # Add any other scraping dependencies
+          pip install requests beautifulsoup4
 
       - name: Run ManhwaClan scraper
         run: python scraper.py
@@ -29,9 +29,13 @@ jobs:
       - name: Run ManhwaBTT scraper
         run: python manga_scraper.py
 
-      - name: Commit and push if changed
+      - name: Set up PAT for pushing
         run: |
           git config --global user.name "GitHub Actions Scraper"
           git config --global user.email "actions@github.com"
-          git add manhwa_db.json manga_top_all.json # Add all JSON files that are updated
-          git diff --staged --quiet || (git commit -m "Update manga data" && git push) 
+          git remote set-url origin https://blank7k:${{ secrets.PAT_TOKEN }}@github.com/blank7k/manhwa-companion.git
+
+      - name: Commit and push if changed
+        run: |
+          git add manhwa_db.json manga_top_all.json
+          git diff --staged --quiet || (git commit -m "Update manga data" && git push)
