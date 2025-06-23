@@ -35,6 +35,8 @@ const HomePage = () => {
       try {
         const endpoint = activeTab === 'today' ? getAllManhwa : getTopAllManhwa;
         const result = await endpoint();
+        console.log("Fetched result:", result);
+        console.log("Fetched result.data:", result.data);
         setManhwaList(result.data);
       } catch (error) {
         console.error("Error fetching data:", error);
