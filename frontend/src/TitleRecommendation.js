@@ -7,6 +7,7 @@ import "./HomePage.css";
 import "./TitleRecommendation.css";
 import { getSuggestions, getTitleRecommendations } from './api';
 import { debounce } from 'lodash';
+import getImageUrl from './utils/getImageUrl';
 
 const TitleRecommendation = () => {
   const [title, setTitle] = useState("");
@@ -174,7 +175,7 @@ const TitleRecommendation = () => {
             >
               {item.image && (
                 <img
-                  src={item.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(item.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
+                  src={item.image ? getImageUrl(item.image) : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
                   alt={item.title}
                   className="manhwa-cover"
                 />

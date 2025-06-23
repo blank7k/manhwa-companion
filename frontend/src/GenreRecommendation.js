@@ -5,6 +5,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { auth, db } from "./firebase";
 import "./HomePage.css";
+import getImageUrl from './utils/getImageUrl';
 
 const genreTagMap = {
   Action: "391b0423-d847-456f-aff0-8b0cfc03066b",
@@ -167,7 +168,7 @@ const GenreRecommendation = () => {
             >
               {item.image && (
                 <img
-                  src={item.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(item.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
+                  src={item.image ? getImageUrl(item.image) : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
                   alt={item.title}
                   className="manhwa-cover"
                 />

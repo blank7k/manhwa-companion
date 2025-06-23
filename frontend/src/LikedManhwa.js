@@ -11,6 +11,7 @@ import { auth, db } from "./firebase";
 import "./HomePage.css";
 import "./LikedManhwa.css";
 import { searchManhwa } from './api';
+import getImageUrl from './utils/getImageUrl';
 
 const LikedManhwa = () => {
   const [user, setUser] = useState(null);
@@ -106,9 +107,16 @@ const LikedManhwa = () => {
         key={i}
         onClick={() => handleCardClick(manhwa)}
       >
-        {manhwa.image && (
+        {manhwa.image ? (
           <img
-            src={manhwa.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(manhwa.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
+            src={getImageUrl(manhwa.image)}
+            alt={manhwa.title}
+            className="manhwa-cover"
+            loading="lazy"
+          />
+        ) : (
+          <img
+            src={'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
             alt={manhwa.title}
             className="manhwa-cover"
             loading="lazy"

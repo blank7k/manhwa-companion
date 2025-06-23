@@ -18,6 +18,7 @@ import {
 } from "firebase/firestore";
 import { auth, db } from "./firebase";
 import "./ManhwaDetailPage.css";
+import getImageUrl from './utils/getImageUrl';
 
 const ManhwaDetailPage = () => {
   const location = useLocation();
@@ -191,7 +192,7 @@ const ManhwaDetailPage = () => {
     <div className="manhwa-detail-page">
       <div className="detail-card">
         <img
-          src={manhwa.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(manhwa.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
+          src={manhwa.image ? getImageUrl(manhwa.image) : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
           alt={`Cover of ${manhwa.title}`}
           className="detail-cover"
         />

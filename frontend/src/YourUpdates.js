@@ -7,6 +7,7 @@ import { doc, getDoc, setDoc } from "firebase/firestore";
 import "./HomePage.css";
 import { useAuth } from './hooks/useAuth';
 import { getAllManhwa } from './api';
+import getImageUrl from './utils/getImageUrl';
 
 const YourUpdates = () => {
   const [updates, setUpdates] = useState([]);
@@ -83,7 +84,7 @@ const YourUpdates = () => {
             >
               {manhwa.image && (
                 <img
-                  src={manhwa.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(manhwa.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
+                  src={manhwa.image ? getImageUrl(manhwa.image) : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
                   alt={manhwa.title}
                   className="manhwa-cover"
                 />
