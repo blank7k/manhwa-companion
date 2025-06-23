@@ -9,6 +9,8 @@ from fastapi import Body
 import requests
 from openai import OpenAI
 from dotenv import load_dotenv
+from fastapi.responses import StreamingResponse
+from urllib.parse import unquote
 
 # Load .env variables
 load_dotenv()
@@ -289,4 +291,26 @@ def format_recommendations(items):
         }
         for item in items[:5]
     ]
+
+
+@app.get("/proxy-image")
+def proxy_image(url: str = Query(...)):
+    try:
+        # Decode the incoming URL (in case it's encoded)
+        decoded_url = unquote(url)
+        
+        # Forward the request to MangaDex with proper headers
+        headers = {
+            "Referer": "https://mangadex.org",  # Required to bypass image block
+            "User-Agent": "Mozilla/5.0"
+        }
+
+        response = requests.get(decoded_url, headers=headers, stream=True)
+        response.raise_for_status()
+
+        content_type = response.headers.get("Content-Type", "image/jpeg")
+        return StreamingResponse(response.raw, media_type=content_type)
+
+    except Exception as e:
+        return {"error": f"Failed to fetch image: {e}"}
 

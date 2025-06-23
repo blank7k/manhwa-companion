@@ -174,7 +174,7 @@ const TitleRecommendation = () => {
             >
               {item.image && (
                 <img
-                  src={item.image}
+                  src={item.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(item.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
                   alt={item.title}
                   className="manhwa-cover"
                 />

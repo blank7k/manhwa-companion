@@ -83,7 +83,7 @@ const YourUpdates = () => {
             >
               {manhwa.image && (
                 <img
-                  src={manhwa.image}
+                  src={manhwa.image ? `https://manhwa-companion.onrender.com/proxy-image?url=${encodeURIComponent(manhwa.image)}` : 'https://via.placeholder.com/280x420.png?text=Cover+Not+Found'}
                   alt={manhwa.title}
                   className="manhwa-cover"
                 />
