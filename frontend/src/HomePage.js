@@ -94,7 +94,7 @@ const HomePage = () => {
   };
 
   const renderCards = (list) =>
-    list.map((manhwa, i) => (
+    (Array.isArray(list) ? list : []).map((manhwa, i) => (
       <div
         className="manhwa-card"
         key={i}
