@@ -1,120 +1,234 @@
 [
   {
-    "title": "The Cruelty of Salvation",
-    "chapter": "Chapter 8",
+    "title": "Jade of the Eight Gates",
+    "chapter": "Chapter 16",
     "genre": [
+      "Action",
+      "Adventure",
       "Drama",
       "Fantasy",
-      "Romance"
+      "Magical",
+      "Manhwa",
+      "Romance",
+      "Vampire"
     ],
-    "summary": "",
-    "image": "https://uploads.mangadex.org/covers/65544696-950d-43ea-9009-f823afe53313/8ba4003f-0e63-47f4-b40a-6e2f36ac0258.jpg",
+    "summary": "'Jucho', a government official manipulating the young king from behind, begins to express his ambition to oust the king and take real power and plots a ruse. Meanwhile, 'Handong', a member of the emperor's special unit 'Surajo', meets the boy 'Jinbaek' in a village he entered to following the traces of his disappeared colleague, and learns that his colleague met his end in this village. These two people who fought with the people sent by Jucho knew that they needed eight jades to rescue Jinbaek grandfather who was held hostage and to stop Jucho's ambition, they started the journey together...",
+    "image": "https://uploads.mangadex.org/covers/4693f33b-5ba1-4be8-8c9a-920a0b25dc2f/a5c2aef1-5bea-4de2-b42b-3734dd10e397.jpg",
     "moods": []
   },
   {
-    "title": "The Caring Young Lady Wants to Be a Wall",
-    "chapter": "Chapter 23",
-    "genre": [
-      "Fantasy",
-      "Romance"
-    ],
-    "summary": "Irina de Claudel was reincarnated as a background character in her favorite BL game. While she’s busy playing matchmaker to get her favorite pairing, Henri and Noel, together… She somehow ends up being loved by both of them!?\n“All I ever wanted… was to be a wall between them…!”\nWill Irina succeed in getting the two together in the end!? A chaotic love comedy where the heroine is adored by the very romanceable characters of a BL game!",
-    "image": "https://uploads.mangadex.org/covers/7dccd69a-8405-4633-8cb0-4d85cc02733f/1ddb4f22-b0e4-428f-aa8b-9b6197a09304.jpg",
-    "moods": []
-  },
-  {
-    "title": "The Hero Went Crazy Even Though I’m the One Who Died",
-    "chapter": "Chapter 77",
+    "title": "The Man Who Wears Magnolia",
+    "chapter": "Chapter 11",
     "genre": [
       "Comedy",
       "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Office Workers",
+      "Romance",
+      "Slice of Life"
+    ],
+    "summary": "Collection of oneshots from author Tatsuki Fujimoto.\n\nVolume 1: 17-21\n\n- Chapter 1. **There were Two Chickens in the Garden (Niwa ni wa Niwa Niwatori ga Ita, 庭には二羽ニワトリがいた。)**\nA strange world where aliens have taken over the human world, and only two humans are left which are apparently disguising themselves as mere chickens.\n\n- Chapter 2. **Sasaki-kun Has Stopped the Bullet (Sasaki-kun ga Judan Tometa, 佐々木くんが銃弾止めた)**\nTo Sasaki, his teacher Kawaguchi is God. She taught him not to be ashamed of his own dreams and made him feel fully capable to forge forward and make them come true, no matter how low the odds. Yet one day, trouble from Kawaguchi's past follows her into the classroom. With his god in danger of total humiliation, Sasaki sets out to protect his teacher using her very own teachings: to strive for the impossible.\n\n- Chapter 3. **Love is Blind (Koi wa Moumoku, 恋は盲目)**\nA one-shot story about a boy that is blind to everything but love. Can he confess to his crush?\n\n- Chapter 4. **Shikaku (シカク)**\nA notorious hit-man bites off more than they can chew when their newest target turns out to be holding a supernatural secret. Bullets fly and love is in the air.\n\nVolume 2: 22-26\n\n- Chapter 1. **Siren Rhapsody (Ningyo Rhapsody, 人魚ラプソディ)**\nIn a world where sirens are common, the protagonist is a hybrid of a human father and a mermaid mother. He's always playing the piano under the sea, when a strange siren approaches him…\n\n- Chapter 2. **\"When I Woke Up I had Become a Girl\" Disease (Me wo Sametara Onnanoko ni Natteita Byou, 目が覚めたら女の子になっていた病)**\nA boy wakes up to discover he has become a girl! How will this affect his daily life?!\n\n- Chapter 3. **Nayuta of the Prophecy (Yogen no Nayuta, 予言のナユタ)**\nA tale about a prophecy involving a girl with horns who is said to bring destruction upon the world, and her brother.\n\n- Chapter 4. **Little Sister's Elder Sister (Imouto no Ane, 妹の姉)**\nA story about sisters aspiring to be artists.",
+    "image": "https://uploads.mangadex.org/covers/991e9f15-8368-4843-a78a-5605918f9c3e/71863bda-f2f4-4570-b8ac-5c8d59de88fd.jpg",
+    "moods": []
+  },
+  {
+    "title": "Will You Marry Me Under Contract, Your Highness?",
+    "chapter": "Chapter 55",
+    "genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "Jenesia, a brilliant sorcerer, was murdered after witnessing an affair between her fiancé and her best friend. With her final breath, Jenesia managed to use her magical powers to turn back time. Reliving her past, will Jenesia finally be able to find happiness?",
+    "image": "https://uploads.mangadex.org/covers/3bec73a8-4bcb-4a5c-841b-96553d6bac9f/ba55bd6a-e9ab-4b01-bf3d-5cc1a7394406.jpg",
+    "moods": []
+  },
+  {
+    "title": "The Princess in The Henhouse",
+    "chapter": "Chapter 48",
+    "genre": [
+      "Drama",
+      "Fantasy",
       "Manhwa",
       "Romance",
       "Webtoons"
     ],
-    "summary": "As the hero's comrade, I died after blocking him from the evil dragon's breath. Well, it's fine. The Hero Elkinas was the only friend I trusted to have my back. I'll go out with a bang, I guess, so the hero can marry a pretty woman and live the rest of his life.\n\n…Is what I thought would happen, but after 80 years passed, I came back to life in a completely different body. And…\n\n“It’s regrettable, Arlene. Elkinas went insane. Completely insane.”\n\nThat was the first thing I heard.\n\nWhat else could I do? I should help him. To help my close friend who seems to have not been able to accept my death, I decided to stay by his side while hiding my identity. This way Elkinas could completely accept the past and become happy, since this is the very reason why I died for him. But… I think he recognized me.\n\n\"You're… Arlene, aren't you?\"\n\nI touched my face. I definitely don't look like Arlene. Shouldn't there be no way he could know who I was?\n\n\"I won't ever let you go… Ever,\" Elkinas said with shining eyes.\n\n---\nHappy to die for the sake of her friends, Aryn the sorcerer succumbs to the poisonous breath of the evil dragon Kuntern. 80 years later, through the divine powers of The World Tree and her former adventuring companion Zephyr, Aryn finds herself reborn. Upon her awakening, she learns that her childhood best friend, Elkinas Pontiac, went insane after her death. Once the leader of their expedition, El is now a tyrant ruler, raising a child hatched from Kuntern’s egg. Will Aryn be able to save him?",
-    "image": "https://uploads.mangadex.org/covers/62488bf3-3fca-4e82-8248-6b3037965b81/c12911a8-79b1-4dd7-acef-914ac1cf16e6.jpg",
+    "summary": "In the Fight Empire, where strength and beauty were valued above all else, even the princesses led armies and spent their days in battle. This is a story of one particular day in the lives of two princesses born into this nation.\n\n[Part of the 10th anniversary Jump+ One-shot collection](https://mangaplus.shueisha.co.jp/web_pages/2019/)",
+    "image": "https://uploads.mangadex.org/covers/2abceffe-8d4e-425e-b1a1-a7d1c6b178df/8ef4cab5-624d-49a3-bccd-6294aca0352d.jpg",
     "moods": []
   },
   {
-    "title": "Genre is Romance",
-    "chapter": "Chapter 68",
+    "title": "Cynical Master Raises Rabbit Spirit",
+    "chapter": "Chapter 75",
+    "genre": [
+      "Fantasy",
+      "Historical",
+      "Romance"
+    ],
+    "summary": "Medical student Ruan Ruan becomes a rabbit spirit, and meets a cold and blood-sucking fox spirit. Their first time meeting, she died under his dagger. Who would guess that she would come back alive the next day?\n\nIn order to survive in this supernatural world full of masters, she became the fox’s follower. She does laundry, cooks, and calms him down when the looses his temper. During tje full moon she becomes his portable blood bank. So many worrisome matters…\n\nCynical Bloodthirsty Fox x Timid Cute White Bunny",
+    "image": "https://uploads.mangadex.org/covers/5b2f1b53-25a8-4fa3-b355-3a24db87e3da/7d4f1b1d-4ed0-4f93-bf9b-f6acfbe90417.jpg",
+    "moods": []
+  },
+  {
+    "title": "My Benefactor Is Not a Scholar",
+    "chapter": "Chapter 71",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Mature",
+      "Romance"
+    ],
+    "summary": "Kaylen came across a major setback in her life and headed back to the countryside to run away from all of this, one day she rescued a fox when she wandered around in the forest after she got drunk. But she didin't know that she will meet this \"fox\" again soon! Kaylen's works were taken away by the powerful men, so she tried to take her revenge through her new novel. Just when her revenge was blocked, she met her strongest alliance, a little dumb and beautiful man with a strong and a smuggling body! Wait, why does he look so familiar?",
+    "image": "https://uploads.mangadex.org/covers/976da4a5-721f-46b3-898f-4fcb423f2c9b/ba281166-21f7-496c-b339-073e7140433d.png",
+    "moods": []
+  },
+  {
+    "title": "Another Heaven",
+    "chapter": "Chapter 38",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "An angel made a mistake, resulting in Shiihara Daiki’s death. In order to hide the mistake, he was then sent to a different world. The angel will grant him one wish as a payment for keeping it a secret. Daiki asked for a Heavenly Castle floating in the sky without hesitation.  \nSuddenly a floating castle appeared in the new world, which causes confusion amongst the people. They attempt to contact Daiki in various ways. A country tries to steal it by force, while another seeks to befriend him. What in the world would Daiki do?",
+    "image": "https://uploads.mangadex.org/covers/6922c395-f00d-4112-8c2f-31aebb79ac2a/55014708-9f47-4c67-b417-e44f4c61d0a9.jpg",
+    "moods": []
+  },
+  {
+    "title": "Potion Witch",
+    "chapter": "Chapter 77",
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "summary": "\"I want you to make me a love potion.\"\n\nThe “Witch of the Lake” had her heart broken when the object of her one-sided affection requested that she make him a love potion.\n\nIf that’s the case, then I wish to spend more time with him, even if it’s just up until the preparations for the love potion are complete. That was what I had told myself, and yet…\n\nThe romantic tale of a reclusive witch and a solemn knight that begins from unrequited love.\n\n---\n\n[Official English Light Novel](https://crossinfworld.com/Hello-I-am-a-Witch-and-my-Crush-Wants-me-to-Make-a-Love-Potion.html)",
+    "image": "https://uploads.mangadex.org/covers/9c756e83-1032-4338-82ca-47ae9d7f999a/5a172378-9dd8-4ce3-8fc7-f0ad1cbc1bff.jpg",
+    "moods": []
+  },
+  {
+    "title": "I’m retiring from the role of a wife!",
+    "chapter": "Chapter 15",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "Ayukawa Honami (30), once a child prodigy who took the entertainment world by storm, has now retired from show business and is living a happy married life as a mother of one. At the urging of her husband, who runs a talent agency, she allows her daughter to debut as a child actor. However, during a commercial shoot, her daughter becomes entangled in a troubling incident. When Honami discovers that the accident was caused by her husband's infidelity and a grudge from her own child actor days, she decides to make a comeback as a star actress. What follows is a grand tale of revenge that engulfs the entire entertainment industry.",
+    "image": "https://uploads.mangadex.org/covers/5321a35a-e49e-42b2-aa38-b87409658f19/0b4283ae-d7e2-4837-aa30-a46d2bc8b331.jpg",
+    "moods": []
+  },
+  {
+    "title": "Roots of the Heart",
+    "chapter": "Chapter 83",
     "genre": [
       "Drama",
       "Fantasy",
       "Manhwa",
       "Romance"
+    ],
+    "summary": "An elementary schooler, Usami Kyuu encounters Ichiko, a female robot trying to learn about [heart]. What awaits the two that start to live together... Boy X Robot Girl, Begin!",
+    "image": "https://uploads.mangadex.org/covers/e76f1a4f-d21a-4f50-9472-45737f7f1480/f966307f-895c-41a8-b6fc-a3af3a5db3e6.jpg",
+    "moods": []
+  },
+  {
+    "title": "Who Kidnapped the Empress?",
+    "chapter": "Chapter 98",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance",
+      "Webtoons"
+    ],
+    "summary": "No summary available.",
+    "image": "https://uploads.mangadex.org/covers/e5dd452b-5f37-4702-a0e5-6b51a1bd6989/76837366-7629-4006-b4c2-dd5dd3c4ca29.jpg",
+    "moods": []
+  },
+  {
+    "title": "The Handmaiden Hates Childcare",
+    "chapter": "Chapter 67",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance"
+    ],
+    "summary": "While working the regular shift in a supermarket, Ailene finds herself waking up in the body of a nanny within a fantasy novel. \n\nKnowing this character dies at the hands of the twin princes at the beginning of the novel, Ailene vows to raise these boys to be kindhearted and avoid their dark storyline. She fits right into her role and things seem to be looking up until the empire’s \"mad dog\" Duke Kasar stumbles into her life and asks her to pretend to be his lover. \n\nWill Ailene make it through the fantasy novel alive?!",
+    "image": "https://uploads.mangadex.org/covers/0be5953a-301b-4458-a96f-958491768be1/00a6bd23-818e-4be1-8460-12f62bd701b8.jpg",
+    "moods": []
+  },
+  {
+    "title": "Describe Your Feeling When Being Reincarnated as Your Husband’s Mistress",
+    "chapter": "Chapter 61",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance",
+      "Webtoons"
+    ],
+    "summary": "Adrienne Trovica, the sole Grand Duchess of the Rhonta Empire, suddenly dies from a seizure and wakes up in the body of Countess Bleiah Acacia, who looks exactly like her. As it turns out, Bleiah is no ordinary woman. She was the mistress of Adrienne’s loving husband, Noevian Trovica. Adrienne, shocked by the news, attends her funeral as Bleiah to confirm the rumor. To her surprise, she sees a man crying for her at her grave. Who is this mystery man, and was everything that she knew about her husband a lie?",
+    "image": "https://uploads.mangadex.org/covers/ff594e5d-827c-416b-a9b5-6cfcd798f404/c8b47c8b-ae80-41b5-b9c5-4c0e1c8fa3a3.jpg",
+    "moods": []
+  },
+  {
+    "title": "My family’s Romeo",
+    "chapter": "Chapter 1",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance",
+      "Slice of Life"
     ],
     "summary": "",
     "image": "https://via.placeholder.com/280x420.png?text=No+Image",
     "moods": []
   },
   {
-    "title": "Genius Grandson of the Loan Shark King",
-    "chapter": "Chapter 67",
+    "title": "My Ex, We Meet Again",
+    "chapter": "Chapter 6",
     "genre": [
-      "Action",
-      "Adventure",
       "Drama",
       "Fantasy",
-      "Manhwa"
+      "Manhua",
+      "Romance"
     ],
-    "summary": "Kim Mu-hyuk, the grandson of the Loan Shark King Cheon Tae-san, whom even the wealthy elites of South Korea bowed to, strives to be recognized as a member of the Cheon Family. Despite his efforts, Mu-Hyuk is betrayed and killed by his uncles in a vicious struggle over his grandfather’s inheritance.\n\nHowever, instead of dying, he wakes up in the 1990’s, with a second chance to rewrite his fate. Determined to prevent the death of his grandmother, who raised him, and reclaim the legacy of the Cheon family, Mu-hyuk sets out to preserve his severed friendships and take brutal revenge on his uncles and anyone else who stands in his way.\n\nWill Kim Mu-hyuk, the grandson of the loan shark king be able to ascend to the throne of the ruthless Loan Shark Empire, feared by even gangsters?",
-    "image": "https://uploads.mangadex.org/covers/12fd0735-7578-41f1-960c-d4def007ed0f/de0536eb-7170-4400-89d8-ffd05e1d37d8.jpg",
+    "summary": "I once had a childhood friend who was an angel. However, when we met again, several years later, she had become a gyaru. \n\nA yuri story between two childhood friends.",
+    "image": "https://uploads.mangadex.org/covers/a6a9c19f-ccc5-44af-8bec-7da090220bd3/e7602284-f76a-448d-ae9d-c492f66603d8.jpg",
     "moods": []
   },
   {
-    "title": "Into the light once again",
-    "chapter": "Chapter 114",
+    "title": "My duke is Not Dead",
+    "chapter": "Chapter 45",
     "genre": [
       "Drama",
       "Fantasy",
       "Historical",
       "Manhwa",
       "Romance",
-      "Shoujo",
       "Webtoons"
     ],
-    "summary": "I was falsely accused of attempting to kill my younger sister, who was worshipped as a holy maiden. There was not a single person who believed in me, nor was there a person who stood up for me. Not even my blood-related family. I was fourteen years old, and it was winter. I, who was Edenbell's Fourth Princess, was miserably beheaded in front of the masses. After the end of my death, I awoke and what came was...\n\n\"My baby, my precious younger sister.\"\n\nWith a delightful smile, he held my small fingers. That warm gesture, warmth, and touch. He sang me a lullaby as he held me gently and swayed.\n\n---\nWhen Princess Alisa is framed for a terrible crime, she is shocked to learn that her own family wants her executed. After losing her will to live, she finds herself reborn as the princess of a rival empire. And though her new family acts sweet and kind on the surface, she's not sure they can be truly trusted. Luckily, with this new life comes new power. But what exactly is this mysterious magic that awakens in her? And more importantly, can she use it to get vengeance against those who once betrayed her?\n\n---\n[Original Novel](https://page.kakao.com/content/52524734)\n\n**Original Webtoon:** [Daum](https://webtoon.kakao.com/content/%EB%8B%A4%EC%8B%9C-%ED%95%9C%EB%B2%88-%EB%B9%9B-%EC%86%8D%EC%9C%BC%EB%A1%9C/2586), [KakaoPage](https://page.kakao.com/content/57770713)\n\n**Official Translations:**\n* [English](https://tapas.io/series/into-the-light-once-again/info)\n* [Chinese (Simplified) / 汉语](https://pdt.tencentac.com?contentId=146)\n* [Chinese (Traditional) / 漢語](https://tw.kakaowebtoon.com/content/%E9%87%8D%E8%BF%8E%E6%9B%99%E5%85%89/209)\n* [French / Français](https://fr.piccoma.com/fr/product/225)\n* [Indonesian / Bahasa Indonesia](https://id.kakaowebtoon.com/content/Into-the-Light-Once-Again/51)\n* [Japanese / 日本語](https://piccoma.com/web/product/83347)\n* [Thai / ภาษาไทย](https://th.kakaowebtoon.com/content/%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%A7%E0%B8%99%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87/249)",
-    "image": "https://uploads.mangadex.org/covers/6cfc0541-41e2-4f77-8340-971fdc15bacc/78323f12-2417-48b1-989c-2cc575f2fb01.jpg",
+    "summary": "",
+    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
     "moods": []
   },
   {
-    "title": "I Became a Sales Prodigy",
-    "chapter": "Chapter 63",
+    "title": "Wail Of Weakness",
+    "chapter": "Chapter 75",
     "genre": [
-      "Comedy",
-      "Drama",
+      "Action",
       "Fantasy",
-      "Manhwa"
+      "Supernatural"
     ],
-    "summary": "Elcan, a dark magician, is fired from his party due to his lack of talent with offensive magic.  As he wandered the streets he came across twins, who were abandoned by their parents.\n\n\"I couldn't be a good dark magician, but I want to make their lives better!\"\n\nHe decided to retire from being an adventurer and raise these two girls as his own. And so, he raised his daughters, Corona and Selena. Teaching them black magic and enrolling them in a prestigious magician's academy. After learning more about magic, the girls return to see their father with some important news... They are S-rank Sages?! And they want to form a party with him?!",
-    "image": "https://uploads.mangadex.org/covers/8a63f910-2d6e-43bb-9c5d-fd8ab2d1264b/1de0ecd3-cbf0-4c8f-b6e3-b5b93a7b0f25.jpg",
-    "moods": []
-  },
-  {
-    "title": "Kneel, Your Grace!",
-    "chapter": "Chapter 25",
-    "genre": [
-      "Bloody",
-      "Comedy",
-      "Demon",
-      "Drama",
-      "Fantasy",
-      "Historical",
-      "Manhwa",
-      "Romance",
-      "Shoujo",
-      "Webtoons",
-      "Yaoi(BL)"
-    ],
-    "summary": "Everyone dreams of knocking out their insufferable boss, but what if that boss is a war hero, a duke, and constantly breathing down your neck? For Chloe, enduring Curtis's relentless inspections was a daily struggle... Until a royal marriage decree offers her an unexpected way out.\n\n---\nEveryone has had the urge to punch their infuriating boss, but actually going through with it is hard. Especially when that boss is a war hero and a grand duke, no less. Chloe could only grit her teeth as she watched Curtis constantly conduct service inspections… but then, a once-in-a-lifetime opportunity presented itself. The king ordered Curtis to marry a noblewoman from another country, and he put forward his lieutenant, Chloe, as his lover. Now, the gun was in her hands… “First, get on your knees, Your Grace.”",
-    "image": "https://uploads.mangadex.org/covers/c966fba8-642a-453c-82ac-ded37a8ee1ed/b1f30557-e075-4b10-acb7-7693283b18d2.jpg",
+    "summary": "Ananta, a descendant of one of the First Six Incarnates, can transform into an unstoppable brawling dragon whenever anything stands in his way. \n\nIt's a power he'll need in his quest to exact revenge against the Wings Incarnate, a power-hungry deceiver that resembles a heavenly angel only in appearance.",
+    "image": "https://uploads.mangadex.org/covers/b7a5a596-f011-4fe1-aff3-b30d236db471/fd8ee240-e083-4a2f-a04c-e0f8aee353b5.jpg",
     "moods": []
   },
   {
     "title": "Genius Prismatic Mage",
-    "chapter": "Chapter 49",
+    "chapter": "Chapter 50",
     "genre": [
       "Action",
       "Adventure",
@@ -127,54 +241,91 @@
     "moods": []
   },
   {
-    "title": "Wild Night",
-    "chapter": "Chapter 71",
+    "title": "Magic Emperor",
+    "chapter": "Chapter 745",
     "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Mature",
-      "Romance",
-      "Shoujo",
-      "Webtoons"
+      "Action",
+      "Adventure",
+      "Magic",
+      "Manhua"
     ],
-    "summary": "No summary available.",
-    "image": "https://uploads.mangadex.org/covers/cf067d83-7967-43ad-b634-d1cccea5e721/bd02a1ad-47cb-427d-9d4a-60cc10fc46f9.jpg",
+    "summary": "Because he had the heritage of the ancient Demonic Emperor, Demonic Emperor Zhuo Yifan met the misfortune of being betrayed and killed by his trusted disciple. After being reborn, his cultivation went back to zero and he was trapped by a heart demon, given no choice but to become the housekeeper of the Luo Family's lone eldest miss. From being a Magic Emperor to being an insignificant housekeeper, how would he get along with his \"heart demon eldest miss\" and what power would he gain in order to lead himself and the declining family to rise back to the peak of the continent!\n\n\n---\n\n**Note:** 魔 can mean \"magic\" and \"demon\", while 管家 can mean \"butler\" and \"housekeeper\". I'm not sure as to why the previous translator decided to use \"Magic\" when it's a cultivation world, but I'll just follow. And Zhou Fan never does the work of a housekeeper throughout the manhua.\n\n---\n\n[Tapas](https://tapas.io/series/the-servant-is-the-demon-king/info)",
+    "image": "https://uploads.mangadex.org/covers/69e218ec-93eb-4025-ae39-33d47b1160e0/b60fd7d0-d3b0-492b-8542-f22d2a9f2205.jpg",
     "moods": []
   },
   {
-    "title": "Ready Shoot, For love",
-    "chapter": "Chapter 24",
+    "title": "Try Begging Me",
+    "chapter": "Chapter 55",
     "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Mature",
-      "Romance",
-      "Webtoons"
-    ],
-    "summary": "\"Do you agree with this love, or are you very much against it?\" \n\nWhat would you do if you finally found the love of your dreams but it is someone you shouldn't have fallen in love with? \n\nIchibana is a girl who is a little bit girly and a little bit hot-tempered. She falls in love with Maki, a plain boy in her class, but just as she is about to confess her feelings to him, she finds out, to her surprise that he has a girlfriend!",
-    "image": "https://uploads.mangadex.org/covers/fc3ba74c-89e8-4391-92ed-07fbb0093427/be5b10a1-2861-436e-aa36-3a5eca8ae988.jpg",
-    "moods": []
-  },
-  {
-    "title": "When the Black Wolf Calls Me",
-    "chapter": "Chapter 76",
-    "genre": [
+      "Adult",
       "Drama",
       "Fantasy",
       "Historical",
       "Manhwa",
+      "Mature",
+      "Psychological",
       "Romance",
-      "Supernatural"
+      "Smut"
     ],
-    "summary": "\"You can never have me. The one who can kill me, is me, not you.\"\n\nYeonwoo killed herself in front of her ex-husband who murdered her family. Yet, she found herself back again.\n\nTo escape from my ex-husband Hyojo's obsession, to protect my family and to protect myself... I ask another man to take me.\n\n\"Hwita, I'll be your woman!\"",
-    "image": "https://uploads.mangadex.org/covers/a5d21e77-b961-42e3-8d69-bbb1610c1c71/d94887c7-c78b-4829-9517-35480a562191.jpg",
+    "summary": "Sato Itto, an ordinary salaryman, has been shy about love due to an old trauma. Then one day, a reunion is held for the first time in several years. While they are having a good time talking about the good old days, suddenly Hebo, who has become an idol currently on hiatus, decides to attend the reunion!\n\nSato is upset to see Hebo, who was his first love. He manages to get over it with the help of alcohol, which he does not normally drink. When he wakes up, he finds the two of them naked in the same bed. As Sato desperately tries to recall his memories, Hebo shockingly says to him...!\n\n\"Marry me...\"\n\nWhat will happen to the marriage between the two who have no experience with love...!?",
+    "image": "https://uploads.mangadex.org/covers/c7b6f161-d7b9-4bac-a6c6-1bb701df387e/5e46073a-47aa-4395-94fd-aad1b7471ffa.jpg",
     "moods": []
   },
   {
-    "title": "The Desire of the Princess from a Fallen Kingdom",
-    "chapter": "Chapter 1",
+    "title": "Beauty and the Beasts",
+    "chapter": "Chapter 690",
+    "genre": [
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Manhua",
+      "Romance",
+      "Webtoons"
+    ],
+    "summary": "A different world where demons are rampant and murderous. Olivia, a female knight, lives with her apprentice Noah, an animal eared child. A tale of a master and apprentice growing up, adventuring and being healed by the strong bond between each other.",
+    "image": "https://uploads.mangadex.org/covers/83e6e476-63e0-4c86-aaed-c011150d8cab/f3412f17-0511-4def-ade6-001398436276.jpg",
+    "moods": []
+  },
+  {
+    "title": "The Ugly Lady’s Secret Pouch",
+    "chapter": "Chapter 75",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance",
+      "Webtoons"
+    ],
+    "summary": "When Yunseol wakes up as \"Laila el Este\" in the novel, “Bird Cage,” she is horrified.\n\nThough Laila may be beautiful, her beauty is the reason the three male leads obsess over her and make her life a living hell. As such, Laila decides to use her professional makeup skills to become high society’s infamous ugly duckling.\n\nBut out of nowhere, she receives a marriage proposal from Duke Montefeltra, a fellow outcast who is ostracized for his unattractive looks.\n\nWill this turn of events help Laila escape the novel’s bad ending once and for all?",
+    "image": "https://uploads.mangadex.org/covers/6bd99686-e707-4b4a-9c38-d72645db30a1/a3cba9a9-3fc7-4461-bb2e-69a60548fe29.jpg",
+    "moods": []
+  },
+  {
+    "title": "Arrogant Regret",
+    "chapter": "Chapter 12",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "After her noble family falls to ruin, Stella Embrose does whatever she can to make ends meet. But her departure from high society only sparks rumors about her supposed messy relationships with men. These false rumors reach the ears of Duke Callian Rochester, Stella’s unrequited first love and her husband-to-be under the emperor’s ploy to keep him in check. Believing Stella to be unworthy of him, Callian hands her a contract stating they will divorce in three years. Will this be enough time for Callian to be unblinded by his pride and see Stella for who she truly is?",
+    "image": "https://uploads.mangadex.org/covers/b4e7d0ce-da38-40e9-b3df-10247e9edd05/3257770d-0c98-439a-a9c1-292ce68e9dea.jpg",
+    "moods": []
+  },
+  {
+    "title": "The Sacrificial Princess Satisfies the Vampire Duke’s Thirst With Sweetness",
+    "chapter": "Chapter 19",
+    "genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "",
+    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
+    "moods": []
+  },
+  {
+    "title": "Perfection is Everything",
+    "chapter": "Chapter 6",
     "genre": [
       "Drama",
       "Fantasy",
@@ -185,156 +336,144 @@
     "moods": []
   },
   {
-    "title": "Stuck in the Tower",
-    "chapter": "Chapter 127",
+    "title": "If You Desire to Keep Me [Official]",
+    "chapter": "Chapter 26",
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Manhwa"
-    ],
-    "summary": "Sejun, your average Seoul underdog, didn’t expect to grow tomatoes full-time when he stumbled into the mysterious dungeon full of monster quests and extravagant rewards. Yet, there he was, as a farmer growing and selling cash crops while clearing numerous quests that came his way. Will Sejun make it out of the dungeon with the plush rewards he hoped for? At least he has what it takes: optimism, resourcefulness, and a group of loyal furry friends.",
-    "image": "https://uploads.mangadex.org/covers/f461e344-2385-46b5-83b8-8776f5ea65d0/88c8bf13-56be-42df-af48-8be959d3f768.jpg",
-    "moods": []
-  },
-  {
-    "title": "Surviving The Game as a Barbarian",
-    "chapter": "Chapter 119",
-    "genre": [
-      "Action",
       "Adaptation",
+      "Drama",
       "Fantasy",
-      "Manhwa"
+      "Manhwa",
+      "Romance"
     ],
-    "summary": "After spending nine years on Dungeon and Stone, the role-playing game that no player has ever beaten, Lee Hansoo finally reaches the dungeon of the final boss.\n\nAs soon as he opens the gate, however, he suddenly sees a message that says his tutorial has been completed and finds himself in the body of Bjorn Yandel, a real barbarian within the game.\n\nAn exciting adventure awaits him as he endeavors to abide by the laws of the fictional world!\n\n----\n[Additional Official English translation (Tappytoon)](https://www.tappytoon.com/en/book/surviving-the-game-as-a-barbarian)",
-    "image": "https://uploads.mangadex.org/covers/55fe7e05-6c8e-4164-bd42-4ecfb76c5715/51054a62-fcbd-472d-aee2-e6bd061721a8.jpg",
+    "summary": "Kisa’s world shatters when she hears her fiancé Daniel has another woman. She confronts him, expecting denial but Daniel doesn’t just lie; he mocks her, calling her stupid. Betrayed and trapped by her father’s refusal to let her break the engagement, Kisa’s fate feels sealed until Seyodd, the new duke and her late brother’s replacement, steps into her life. A secret contract marriage with him becomes her only escape. Just when she thinks she’s found freedom, a chilling letter from Daniel warns her about Seyodd’s dangerous secret. What darkness is Seyodd hiding beneath his noble mask?",
+    "image": "https://uploads.mangadex.org/covers/b1a31efd-3610-4493-ad9f-239bf47fe6a7/38b5db6d-dee5-4235-9c31-2485ccbd04c7.jpg",
     "moods": []
   },
   {
-    "title": "The New Empress",
-    "chapter": "Chapter 67",
+    "title": "I will temporarily protect the male lead",
+    "chapter": "Chapter 82",
     "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance"
+    ],
+    "summary": "I somehow took over the body of a villainess in a novel. Originally, I was supposed to die after coveting the male lead, but instead, I decided to become a rich unemployed woman and enjoy a life full of pleasures.\n\n\"You said you wanted to raise a puppy, so this brother went to hunt one for you. How's your brother's hunting skills?\"\n\nUntil my brother came back after hunting the male lead who had turned into a wolf…\n–\nHaving been forced to look after the male lead, I somehow succeeded in taming him after many twists and turns. Now all that's left is to look for this mysterious female lead and hand over the leash, then it will be all over. But…\n\n\"Have you become tired of me?\"\n\n\"No, not at all.\"\n\n\"Then why do you keep trying to send me to a strange person?\"\n\nMaybe it's because he has stayed with me for too long, but it seems he has lost his social skills and has also developed separation anxiety.\n\n\"That person is someone very important to Your Highness.\"\n\n\"The only person who is important to me is you.\"\n\n\"Are you sure?\"\n\n\"Yes, because I've imprinted,\" he whispered and curved the corner of his eyes, \"on you.\"\n\nThe half-bent, bright yellow eyes were brimming with obsession.\n\n---\nRosetta Kazel is enjoying her life as the villainess of a novel, until she's given a silver wolf to be her new pet. Rosetta knows this is none other than the cursed male lead of the novel, Prince Sihael von Idris, who's become stuck in his wolf form! To follow the novel, all Rosetta has to do is look after the wolf prince until the female lead can show up. But what if events have changed so much from the novel that she never turns up? How long will Rosetta be stuck caring for this unruly pup?\n\n---\n\n[Original Novel](https://page.kakao.com/content/55937153)\n\n**Original Webtoon:** [Daum](https://webtoon.kakao.com/content/%EB%82%A8%EC%A3%BC%EB%A5%BC-%EC%9E%84%EC%8B%9C%EB%B3%B4%ED%98%B8-%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4/3091), [KakaoPage](https://page.kakao.com/content/60651851)",
+    "image": "https://uploads.mangadex.org/covers/01d217cd-0857-4460-b463-adcb393fc97f/38da563c-3344-41de-8403-2bb7aec88f2d.jpg",
+    "moods": []
+  },
+  {
+    "title": "Black Corporation: Joseon",
+    "chapter": "Chapter 107",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Historical",
+      "Manhwa",
+      "Reincarnation"
+    ],
+    "summary": "The maniac who was crazy about all kinds of fields such as military and steampunk had been reincarnated. However, his father was King Sejong the Great?\nThe mania-wise king and his crazy maniac son. Along with the ministers, and countless humans who were getting exploited.\nEven today, the night of Joseon was filled with the light of overtime.",
+    "image": "https://uploads.mangadex.org/covers/9bcaaed3-b14a-4c49-b4b6-cc86a2b44be3/526678d8-a268-4897-a6cc-c14f8068ec8f.jpg",
+    "moods": []
+  },
+  {
+    "title": "Reincarnated Escort Warrior",
+    "chapter": "Chapter 116",
+    "genre": [
+      "Action",
+      "Fantasy",
+      "Manhwa"
+    ],
+    "summary": "Although an old porter has shown great determination and loyalty to his escort agency, he is never given the chance to become an armed escort due to his bad leg. But after sacrificing his life to keep a priceless treasure from a group of bandits, he is reborn as the 22-year-old Li Zhenglong who died 30 years ago! Now, in the body of the fourth young master of the Heavenly Dragon Escort Agency, will he finally realize his dream? Or will Li Zhenglong's terrible reputation ruin it all?",
+    "image": "https://uploads.mangadex.org/covers/00714216-e23d-4485-8d55-d30ece04812f/be45daf0-5dcb-454e-b861-bfd54cf76425.jpg",
+    "moods": []
+  },
+  {
+    "title": "Difficult Boss",
+    "chapter": "Chapter 42",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Office Workers",
+      "Romance",
+      "Slice of Life"
+    ],
+    "summary": "No summary available.",
+    "image": "https://uploads.mangadex.org/covers/70dcebb0-f869-4893-b04f-b13f8ee55f19/4ca39dfa-f479-4469-afbb-c2b2d5c986ef.png",
+    "moods": []
+  },
+  {
+    "title": "The Empress’s Beast Selection",
+    "chapter": "Chapter 57",
+    "genre": [
+      "Animal",
       "Drama",
       "Fantasy",
       "Manhwa",
       "Romance",
-      "Webtoons"
+      "Royal family",
+      "Villainess"
     ],
-    "summary": "In the Apollinaire Empire, where birds are considered sacred, an oracle was passed down from generation to generation that the empire would enjoy eternal glory on the day the divine bird made of silver and gold descends. Richard, the young emperor of the Apollinaire Empire, discovers God's egg brought by his companion bird, Dullahan, and takes care of it with all his heart. On the day when the egg finally cracked, what came out of the egg with much anticipation was... \"Churi-churi!\" It was a small bird that made a sound I had never heard before.",
-    "image": "https://uploads.mangadex.org/covers/b4f229c8-9c77-4570-a8c9-746445ba6148/dfbce639-c7b8-4d33-bf6b-ff65c519bd3b.png",
+    "summary": "A collection of older oneshots that are also collected in other collections.\n\nVolume 1:\n1. \"Sunde ni Touch!\" in \"Imadoki\" Vol. 5\n2. \"Couple\" in \"Shishunki Miman Okotowari Kanketsu Hen\"\n3. \"Hatsuki Triangle\" in \"Suna no Tiara\"\n4. \"Houkago Gensou\" in \"Appare Jipangu\" Vol. 1\n5. \"700 Nichi no Blue\" in \"Suna no Tiara\"\n\nVolume 2:\n\n6. \"Perfect Lovers\" in \"Musubiya Nanako\"\n7. \"Otomoe no jijou\" in \"Shishuki Miman Okotowari\" Vol. 3\n8. \"Genseika\" in \"Mint de Kiss me\"\n9. \"Mint de Kiss Me\" in \"Mint de Kiss Me\"\n10. \"Pajama de Ojama\" in \"Gomen Asobase!\"\n11. \"Pajama de Meiro\" in \"Gomen Asobase!\"",
+    "image": "https://uploads.mangadex.org/covers/0595c1bf-3d24-4e27-88e4-7b348eeaced6/0f287a03-52c7-43c9-b584-0b95b3511f66.jpg",
     "moods": []
   },
   {
-    "title": "The Wizard and The Tree",
-    "chapter": "Chapter 48",
+    "title": "On Our Wedding Night, I Got Pregnant with the Chief Warden’s Child",
+    "chapter": "Chapter 13",
     "genre": [
       "Drama",
       "Fantasy",
-      "Magic",
-      "Manhwa",
+      "Historical",
+      "Manhua",
       "Romance"
     ],
-    "summary": "Deep in the forest, in a tower shrouded in mist, there lives a reclusive wizard by the name of Nebelhaut. When he happens across a beautiful fairy who's being held captive and made a public spectacle, he knows he has to take her with him. He names the creature Sti and orders her to call him his master, but her heart remains closed to him. But as time goes on, she sees a different side of him?a side that's both caring and awkward. The distance between the eccentric wizard and strong-willed fairy grows shorter day by day!",
-    "image": "https://uploads.mangadex.org/covers/0110603c-92ec-463e-8d13-7651211e492e/823e1799-2063-485a-b145-564ac7b5c61c.jpg",
+    "summary": "",
+    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
     "moods": []
   },
   {
-    "title": "Shut up, Evil Dragon, I don’t want to raise a child with you anymore",
+    "title": "Bad Delusion",
+    "chapter": "Chapter 12",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Manhwa",
+      "Romance"
+    ],
+    "summary": "",
+    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
+    "moods": []
+  },
+  {
+    "title": "Evolution Begins With A Big Tree",
+    "chapter": "Chapter 420",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "summary": "One minute, he was choking on water, and the next, he found himself in a canyon and turned into a willow tree! Before he could reconcile with this new sad reality, the world decided to throw him another curveball. With the return of spirit energy, every living thing started to mutate, and his life was soon turned into a game of survival. Luckily, he was gifted with the ability of infinite evolution. But was it really a blessing? Or was it also a curse in disguise?",
+    "image": "https://uploads.mangadex.org/covers/2707b1cc-05b9-455f-ae6f-f351dd9f8741/4f99f8ba-8bcf-4098-9c16-351e9c41581c.jpg",
+    "moods": []
+  },
+  {
+    "title": "The Great War",
     "chapter": "Chapter 56",
     "genre": [
       "Action",
       "Adventure",
       "Fantasy"
     ],
-    "summary": "After being defeated and captured, the dragon slayer Leon became a captive of the Silver Dragon Queen. With the awareness of death, he used forbidden magic to curse the queen, but unexpectedly, the queen lost control. \n\nHe thought that this would make the queen live with shame for the rest of her life, and it would be worthy of the dragon slayer's mission. \n\nBut two years later, when Leon opened his eyes, next to him was a little dragon girl with a tail...",
-    "image": "https://uploads.mangadex.org/covers/d41fe947-2e33-4b26-ac29-abc70fb08edb/90236063-df32-4fe1-b801-f65d7ee2e17d.jpg",
-    "moods": []
-  },
-  {
-    "title": "For your Murder",
-    "chapter": "Chapter 26",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Psychological",
-      "Romance",
-      "Thriller"
-    ],
-    "summary": "",
-    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
-    "moods": []
-  },
-  {
-    "title": "The Fake Saint of a Reverse Harem Game",
-    "chapter": "Chapter 16",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Harem",
-      "Romance"
-    ],
-    "summary": "",
-    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
-    "moods": []
-  },
-  {
-    "title": "I Became the Youngest Member of Top Idol",
-    "chapter": "Chapter 54",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "“25…that’s too old to become an idol.” Do Seohan, who got eliminated from the successful idol survival audition program ‘Stardust Project’. Giving up his dreams, he is trying to find his way working part-time jobs. When all of a sudden, he wakes up 8 years in the past after an accident. Right before the ‘Stardust Project’ started! As the youngest (but most experienced), can he make it to the final lineup this time?",
-    "image": "https://uploads.mangadex.org/covers/77ada8df-affa-4a37-84af-4e250b398599/87476b67-6a6a-4735-97ea-b7e5d67af3aa.png",
-    "moods": []
-  },
-  {
-    "title": "Valhalla Saga",
-    "chapter": "Chapter 49",
-    "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "summary": "The power of Valhalla's warriors is called Saga. It is the mighty, magical power born from their achievements and deeds in their former lives. Thus, the more stories and legends of these warriors spread and linger in the hearts of many, the stronger their Saga becomes.\n\nTae Ho himself was certainly no warrior. However, he was the world's top professional gamer. In the game world of Dark Age, his character, Dragon Knight Kalsted could rightly be called a legend in his own right.\n\nHis achievements, his story.\n\nAll the accomplishments that the Dragon Knight Kalsted had accumulated in the game!\n[Saga: Immortal Warrior] The story of the immortal warrior, Lee Tae Ho, unfolds on the battlefield of the gods, Valhalla. To put an end to Ragnarok, which threatens the world's very existence, a new Saga begins at this very moment.",
-    "image": "https://uploads.mangadex.org/covers/a209cabb-8d0d-415b-b73e-c6ec32f060e2/2556614d-5422-46d1-9324-8b5724473d81.png",
-    "moods": []
-  },
-  {
-    "title": "Apocalypse Sword God",
-    "chapter": "Chapter 81",
-    "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Manhua",
-      "Reincarnation",
-      "Sci-fi"
-    ],
-    "summary": "If mercy and kindness can’t save the world, then this time, I choose to kill—\n\nEternal Slayer! Heavenly Lightning Slash! Sword of Annihilation! As long as you learn the most common sword skills, they can be upgraded to SSS rank?! Divine talent + forbidden skills! I’m the last spark of hope in this apocalypse!",
-    "image": "https://uploads.mangadex.org/covers/49ddeb9a-1d34-4820-a773-c096bf7b219b/dbc5461c-46aa-42bc-ad5a-5b47853b9c61.png",
-    "moods": []
-  },
-  {
-    "title": "Kalli the Champion",
-    "chapter": "Chapter 111",
-    "genre": [
-      "Action",
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Mature"
-    ],
-    "summary": "After giving up his dream as a boxer, Park Kang-tae joined a gang. He was well-known inside the gang but got killed in the end. He had one regret when he died - giving up his dream as a boxer.\n\nDid God know about his regret? In a world, where boxing exists in the form of pugilist games, Park Kang-tae pursues his unfulfilled dream.",
-    "image": "https://uploads.mangadex.org/covers/2e69b544-f897-4cec-893f-d9a1790032d9/17791f74-5a0c-47b1-916a-de0afca59287.jpg",
+    "summary": "Im Dajun, who was abandoned by his family and now lives as the leader of a runaway group, one day brings Yeonwoo home by chance. Yeonwoo then commits a violent rampage in Incheon. Standing in the way of Yeonwoo, who was trying to kill a chaebol chairman for revenge, is Yoon Gamin, a top student hopeful. Meanwhile, Nahwajin of the School Authority Protection Bureau watches the situation with interest...\n\nThe first crossover in the Blue String Universe! A massive showdown featuring the main characters from [True Education], [Study Group], and [How to Fight]. This is a record of an intense battle not covered in their own stories.",
+    "image": "https://uploads.mangadex.org/covers/8b1b59c4-f3e9-4f19-b10f-2d71b020bc42/6c604fb7-07f2-455f-bd32-90cabd7febd0.jpg",
     "moods": []
   },
   {
     "title": "Return of the Sword God-Rank Civil Servant",
-    "chapter": "Chapter 53",
+    "chapter": "Chapter 54",
     "genre": [
       "Action",
       "Adventure",
@@ -345,21 +484,62 @@
     "moods": []
   },
   {
-    "title": "Constellations of the Gods [Official]",
-    "chapter": "Chapter 57",
+    "title": "I Became a Swordsmanship Instructor at the Academy",
+    "chapter": "Chapter 26",
     "genre": [
+      "Action",
+      "Adventure",
       "Drama",
       "Fantasy",
+      "Magical",
       "Manhwa",
-      "Romance",
-      "Webtoons"
+      "Vampire"
     ],
-    "summary": "The nation's buzzing about Ahn Suho, the newly awakened player who's giving up a life of riches to become a civil servant. They don't realize that Suho's been a civil servant before... in his past life before he was killed by his own team! \n\nNow, Suho's out to save the country from the worst of its criminal scum by gaining the strength to stop them before they can strike. \n\nCan Suho power up and protect the nation, even if it means starting over completely? Or will justice be thwarted once more?",
-    "image": "https://uploads.mangadex.org/covers/8e1d71d1-0503-4128-9b74-7f7860e71f5a/f7653a42-f179-4e60-afa4-d398111fbc5f.jpg",
+    "summary": "The protagonist is reincarnated in the body of Kang Shin-hyuk, a background character from a popular novel. Shin-hyuk decides to leave saving the world to the original protagonists and enjoy a wealthy, carefree life without interfering with the novel’s plot. \n\nHowever, he discovers discrimination against non-Hunter school graduates at the school where he works. \n\nTo avoid being looked down upon by his fellow teachers, and to lead a comfortable life, Ayumu begins his reincarnation journey, determined to become strong enough to protect himself… even if it means slightly altering the original story.",
+    "image": "https://uploads.mangadex.org/covers/e4d71290-b3c7-46b5-804e-a1e7b9519af0/ea2b2ba7-827b-4767-9b6f-0c6dc8b8d3b5.jpg",
     "moods": []
   },
   {
-    "title": "Duchess Mecklen’s Elegant Rebellion",
+    "title": "The Caring Young Lady Wants to Be a Wall",
+    "chapter": "Chapter 16",
+    "genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "summary": "Irina de Claudel was reincarnated as a background character in her favorite BL game. While she’s busy playing matchmaker to get her favorite pairing, Henri and Noel, together… She somehow ends up being loved by both of them!?\n“All I ever wanted… was to be a wall between them…!”\nWill Irina succeed in getting the two together in the end!? A chaotic love comedy where the heroine is adored by the very romanceable characters of a BL game!",
+    "image": "https://uploads.mangadex.org/covers/7dccd69a-8405-4633-8cb0-4d85cc02733f/1ddb4f22-b0e4-428f-aa8b-9b6197a09304.jpg",
+    "moods": []
+  },
+  {
+    "title": "MookHyang – Dark Lady",
+    "chapter": "Chapter 265",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Magic",
+      "Manhua",
+      "Manhwa",
+      "Webtoons"
+    ],
+    "summary": "The exceptional martial artist and proud hierarch of the Demonic Sect, Mookhyang, winds up in a strange new fantasy realm after falling victim to a curse cast by his enemies, the Blood Sect. But when Mookhyang’s incredible control over qi, or mana, becomes known, it’s only a matter of time before he gets cursed again… and turned into a young lady?! \n\nIn this world of elves, mages, knights, and dragons, will a mastery of Chinese martial arts be enough for one man (or woman) to fight his way back home? Or will this humbled warrior finally concede defeat? \n\n[Webtoon Trailer](https://www.youtube.com/watch?v=_aBOSaO6uOk)\n\n---\n\n- [Original Webtoon <Webtoon kakao>](https://webtoon.kakao.com/content/%EB%AC%B5%ED%96%A5-%EB%8B%A4%ED%81%AC%EB%A0%88%EC%9D%B4%EB%94%94/2341)\n\n- [Official Simplified Chinese Translation](https://manga.bilibili.com/detail/mc28581)\n\n- [Official Traditional Chinese Translation](https://tw.kakaowebtoon.com/content/%E5%A2%A8%E5%8A%8D%E7%95%99%E9%A6%99/59)\n\n- [Official Japanese Translation](https://piccoma.com/web/product/31401)\n\n- [Official German Translation](https://www.tappytoon.com/de/comics/mookhyang-dark-lady-de)\n\n- [Official French Translation](https://www.tappytoon.com/fr/comics/mookhyang-dark-lady-fr)\n\n- [Official Thai Translation](https://th.kakaowebtoon.com/content/%E0%B8%A1%E0%B8%B8%E0%B8%81%E0%B8%AE%E0%B8%A2%E0%B8%B2%E0%B8%87_%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%94%E0%B8%B5%E0%B9%89/99)\n---\n- [Original Book <Yes24>](http://www.yes24.com/Product/Goods/89958058)\n\n- [Original Book <Aladin>](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237680077)",
+    "image": "https://uploads.mangadex.org/covers/4ffd1f8f-ab82-4de4-9dea-e0608c043d7b/669f430e-a824-47cb-b3f5-14dfd1274c34.jpg",
+    "moods": []
+  },
+  {
+    "title": "Number One Beast Master",
+    "chapter": "Chapter 70",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "summary": "Minamino Chinatsu is a beautiful girl who's incredibly popular and easygoing. Ever since I met her in the fall of my first year of high school, my life has been anything but ordinary. It all changed when another guy with the same name as me showed up at school – a handsome one, no less – and suddenly my classmates started calling me 'Number Two.'\n\n\"You're not 'Number Two' to me,\" she said. \"Besides, it's me who wants to kiss you first.\"\n\nMy relationship with Chinatsu goes beyond just school. We play street basketball after class, cook meals together, share secrets, and even grow physically closer. I thought I was fine being alone, but she accepts me for who I am. And because of that, I want to give her the same in return.\n\nThis is a coming-of-age love story about realizing how precious even the simplest desires can be.\n\n(Source: Kadokawa, translated)",
+    "image": "https://uploads.mangadex.org/covers/63499126-62dd-4f0f-84f2-2915bc4f2048/61244014-d522-46d0-b16d-a1edafe0442c.png",
+    "moods": []
+  },
+  {
+    "title": "Don’t Pay Attention to The Villainess",
     "chapter": "Chapter 33",
     "genre": [
       "Drama",
@@ -369,149 +549,14 @@
       "Shoujo",
       "Webtoons"
     ],
-    "summary": "Please divorce me.\n\nI’d sell my soul to divorce you!\n\nIf I had another chance, I wouldn’t live and die in vain like a fool.\n\nEleanor’s goal after being miraculously reincarnated is to divorce the Duke of Mecklen to avoid future misfortune.\n\n---\nEleanor Mecklen was never more than a political pawn who married into the prestigious House Mecklen of the Barden Empire. Under the scrutiny of her mother-in-law, Duchess Carolyn, Eleanor endured endless humiliation. But when Carolyn meets an untimely death, Eleanor is accused of murder and sent to the executioner’s block. But death does not claim her. Instead, she reawakens at House Mecklen. Armed with the knowledge of what’s to come, Eleanor has a second chance to seize her fate.",
-    "image": "https://uploads.mangadex.org/covers/16d77be7-c21d-4314-8b0f-b25133f2eb02/9c3b0894-d458-4673-b74d-64bc4d67b9ec.jpg",
-    "moods": []
-  },
-  {
-    "title": "‪Guardian Of Dragon",
-    "chapter": "Chapter 41",
-    "genre": [
-      "Drama",
-      "Historical",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "One day, Mys, the eldest son of Duke Windsor, is sentenced by the king to be exiled to the border. The king claims that his secret visit to Valitra, the strongest dragon that protects the kingdom, is an attempt at treason against the kingdom. However, Valitra's guardian dragon is actually Mys' younger sister, Tinny, who was thought to have died four years ago! \n\n\"Mys Nii-sama is the one who saved my life, the one who is worthy to rule everything in the world [Supreme Being]. Anyone who hurts Mys Nii-sama will be thrown into hell!\" \n\nAnd the Kingdom is heading towards destruction, having incurred the wrath of its guardian dragon, Valitra... Meanwhile, on the border where Mys has become the ruler, his alchemy techniques are leading to unprecedented developments and making everyone happy - and once again, the kingdom is in danger of destruction.",
-    "image": "https://uploads.mangadex.org/covers/2c22152b-9a6f-48f3-adb6-27b2f4cc2758/9811a373-c94d-4651-911b-7c559ba3abee.jpg",
-    "moods": []
-  },
-  {
-    "title": "I Tried To Live A Good Life, But!",
-    "chapter": "Chapter 41",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "The boy Leopin was born with unnaturally high dexterity. From an early age, he used his dexterity to contribute to his peers in a variety of crafts. Leopin and his friends entered the Royal Pioneer Academy. However, during the \"Ritual of Ability Development\" at the entrance ceremony, the status given to Leopin was disastrous.\n\n\"Occupation: Unemployed.\"\n\"All statuses except dexterity remain at their initial values and do not grow.\"\n\"Skill is dexterous, master of none.\"\n\nLeopin's classmates exiled him because he had nothing to offer other than his dexterity. Leopin is placed in the \"Special Training Class\", a class for failures. Leopin is left all alone. However, he realizes that the skill he has been given, \"Poor Dexterity,\" has an unexpected performance. That is...\n\nYou can convert your dexterity status to any other status.\nYou can change your occupation to any one you want.\n\nThe first thing Leopin did was to become a lumberjack. First, Leopin changed his job to \"Lumberjack\" to get wood from the forest. He then became a carpenter and built the most magnificent house of all. He became an Appraiser to identify rare items, and a Battle Axe User to fight off students from other classes who tried to attack him. Become a Ranger to explore dungeons and a Ninja to get through traps with ease. Leopin, alone (solo), had gained enough power to do everything.\n\nAs Leopin continues to be a warrior, he is adored by his childhood friend, a saint, and admired by a beautiful alchemist, and his activities become even more well known. On the other hand, the classmates who expelled Leopin regret their decision to do so when they witness Leopin's abilities. Their home remains a shack, they are unable to explore, and they gradually lose their place in the school and are ruined.\n___\n**Explanation:** the skill is not \"poor dexterity\", but \"dexterous poor\", which is the Japanese equivalent to a Jack of all trades, master of none; since they can do a bit of everything, they are \"dexterous\", but since they have mastered none, they supposedly cannot make a living from it, hence they are \"poor\". Another manner of saying you have high dexterity is to be \"handy\", back-translated from DEX as in *manual* dexterity from early RPGs. \"An unemployed handyman who does a bit of everything\" just doesn't quite roll off the tongue.",
-    "image": "https://uploads.mangadex.org/covers/d5d7a98d-82b3-4561-bd67-45110f2d22cb/59c7495c-f799-4539-ab55-df549e464150.jpg",
-    "moods": []
-  },
-  {
-    "title": "The Black-Haired Dad Is Not Reaping",
-    "chapter": "Chapter 18",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Webtoons"
-    ],
     "summary": "",
     "image": "https://via.placeholder.com/280x420.png?text=No+Image",
     "moods": []
   },
   {
-    "title": "I’m a Solo Guide",
-    "chapter": "Chapter 51",
+    "title": "The Child of Sin is the Beloved Bride of the Ice Lion",
+    "chapter": "Chapter 19",
     "genre": [
-      "Action",
-      "Drama",
-      "Fantasy"
-    ],
-    "summary": "Sejun, your average Seoul underdog, didn’t expect to grow tomatoes full-time when he stumbled into the mysterious dungeon full of monster quests and extravagant rewards. Yet, there he was, as a farmer growing and selling cash crops while clearing numerous quests that came his way. Will Sejun make it out of the dungeon with the plush rewards he hoped for? At least he has what it takes: optimism, resourcefulness, and a group of loyal furry friends.",
-    "image": "https://uploads.mangadex.org/covers/f461e344-2385-46b5-83b8-8776f5ea65d0/88c8bf13-56be-42df-af48-8be959d3f768.jpg",
-    "moods": []
-  },
-  {
-    "title": "The Cute Little Saintess",
-    "chapter": "Chapter 75",
-    "genre": [
-      "Fantasy",
-      "Romance",
-      "Shoujo"
-    ],
-    "summary": "My mom is the naive and sweet protagonist in a tragic romance novel. My mom is also the substitute lover who escaped from the overbearing President. And I? Well, I'm the five-year-old genius hacker.\n\nGu Chu, a brilliant hacker, finds herself reborn in a tragic romance novel as a five-year-old cutie. Her mother is the unfortunate heroine, her father is the blind-to-reality President, and they're surrounded by scheming relatives, a two-faced aunt, and various villainous women.\n\nDetermined to protect her mother, little Gu Chu stands tall and begins to fight back. What harm could a five-year-old possibly cause? She just wants to protect her mommy and maybe inherit her President daddy's billions along the way.",
-    "image": "https://uploads.mangadex.org/covers/2be7516f-80bd-4f92-93ca-934f561a4049/cd18261f-7ba9-4d32-aa21-4969a0204738.png",
-    "moods": []
-  },
-  {
-    "title": "The Duke and The Fox Princess",
-    "chapter": "Chapter 80",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "If you become a hero and defeat the Demon King, a lazy life awaits you!! That's what Jirey, a young man, believed, and he worked hard day and night, achieving results. \n\nHowever, when he found out that the role of the hero who defeated the Demon King was a very hard job, he retreated into seclusion. He wished to spend his days in idleness, but the girls Jirey had \"unknowingly\" saved up until then started to flock to him one after another, trying to win his heart and body...!?",
-    "image": "https://uploads.mangadex.org/covers/a34052d5-0057-4f33-a850-5f145cef5694/76458494-bd87-45d4-ae83-faa6e8071953.jpg",
-    "moods": []
-  },
-  {
-    "title": "You Awakened while I Was Dead",
-    "chapter": "Chapter 78",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Webtoons"
-    ],
-    "summary": "I possessed an extra who died as soon as the original work started.\nI was the hero’s incompetent guide.\nOnly until I die, will the hero meet his new guide, the heroine.\n\nTo safely stray from the original work,\nI pretended to be dead after consuming a toxic flower that throws you into a coma, but-\n\n“My guide isn’t breathing anymore.”\n……?\n“Who the hell can stop me?”\nThe hero awakened and went berserk?\n\nYou awakened after thinking I died?\nYou can’t possibly awaken like this….!\n\n***\n\n“You’re leaving me?”\n\nBliss scoffed at Shana’s resignation letter.\n\n“Is this a new joke?”\n\n“No. You don’t need a guide anymore so I…….”\n\n“Shana.”\n\nBliss called her in a soft but determined voice.\n\n“You can make fun of me, you can deceive me like a fool, or you can play with me as much as you want.\nSo don’t even joke about trying to leave me.”\nBliss whispered to Shana with a beautiful smile that looked like a painting.\n\n“I just can’t let that slide.”",
-    "image": "https://uploads.mangadex.org/covers/dad7851a-3c5e-4cd8-9b07-94b295d13b03/340e1baf-90fa-41b9-902e-9924afbfba9e.jpg",
-    "moods": []
-  },
-  {
-    "title": "My Pet Miad",
-    "chapter": "Chapter 65",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Historical",
-      "Manhwa",
-      "Romance",
-      "Royal family",
-      "Shoujo",
-      "Tragedy"
-    ],
-    "summary": "",
-    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
-    "moods": []
-  },
-  {
-    "title": "Hermes Lover",
-    "chapter": "Chapter 6",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "summary": "Chrome was a magician in the hero’s party. He fought the Demon Lord’s army alongside people like Irina, the lover who vowed to marry him in the future, and the hero, Yuno, who was his close friend. They were all close companions.\n\nHowever, that was only in Chrome’s mind.\n\nHis lover, Irina, became intimate with the hero, Yuno, and Chrome was sacrificed to make the hero stronger. Chrome’s magic powers were snatched away and he was kicked out of the party. Demons surrounded him as he was on the verge of death and he was driven to a corner.\n\nAt that moment, Chrome awakened to a “darkness” within himself. Amidst his despair, he acquired an unrivaled skill.\n\nNow with this skill, he could exact revenge.\n\n---\n\n[Webnovel Raw](https://ncode.syosetu.com/n3987fe/)",
-    "image": "https://uploads.mangadex.org/covers/3df2a51a-e7bc-47c6-9f9b-2e71eb897325/bb5e8db7-3545-40ea-b56b-410244c44fa4.jpg",
-    "moods": []
-  },
-  {
-    "title": "The Swindler Couple of Ardel",
-    "chapter": "Chapter 21",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Historical",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "",
-    "image": "https://via.placeholder.com/280x420.png?text=No+Image",
-    "moods": []
-  },
-  {
-    "title": "My Wife Appeared at My Wife’s Funeral",
-    "chapter": "Chapter 16",
-    "genre": [
-      "Drama",
       "Fantasy",
       "Romance"
     ],
@@ -520,41 +565,11 @@
     "moods": []
   },
   {
-    "title": "Gold Queen",
+    "title": "I Was Reincarnated as a Villainous Young Lady, but I Have No Desire to Get Married!",
     "chapter": "Chapter 17",
     "genre": [
       "Drama",
       "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Shoujo",
-      "Webtoons"
-    ],
-    "summary": "I'm Teru! Just your wee lil' horny high school girl who's trying to become a mangaka! One day, while I was lost in my sexual fantasies, I got hit by a truck and was reincarnated into an isekai! Though I became a slave of the beautiful elf queen, Sirius, I've got a wholesome orc as my roommate, and there's cute elves all around, so I have to say I'm having a pretty time!",
-    "image": "https://uploads.mangadex.org/covers/7c5cbad4-8bfe-48b3-af13-18c338dda5da/c120b80f-2268-4b98-add7-933c9c9328ab.jpg",
-    "moods": []
-  },
-  {
-    "title": "Charlotte’s Wheel",
-    "chapter": "Chapter 80",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Webtoons"
-    ],
-    "summary": "Vivienne, a wicked woman called the Witch of Goseong. She committed all kinds of evil and was eventually killed by the revolutionary army. The twilight witch who appeared in front of her just before her death leaves meaningful words and brings Vivian back to three years ago. Vivian stands up to seize power after vowing not to lose her loved ones again.",
-    "image": "https://uploads.mangadex.org/covers/be02e41d-3e8f-45cb-bb43-c0d34a273fdd/12e4779a-7cda-4561-a716-24641e24fa4b.jpg",
-    "moods": []
-  },
-  {
-    "title": "Merry Merry Match",
-    "chapter": "Chapter 15",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
       "Romance"
     ],
     "summary": "",
@@ -562,123 +577,99 @@
     "moods": []
   },
   {
-    "title": "That summers promise once again",
-    "chapter": "Chapter 16",
+    "title": "I Don’t Need You Anymore",
+    "chapter": "Chapter 12",
     "genre": [
       "Drama",
       "Fantasy",
-      "MANGA",
       "Manga",
+      "MANGA",
+      "Revenge",
       "Romance"
     ],
-    "summary": "Minami is now one of the most popular young actresses, rising to the top with her natural beauty and charm. However, there's one thing that continues to trouble her. Back in middle school, she was in a serious traffic accident that left her severely injured and took a full year to recover from. As a result of the accident, she also lost all memories related to it. Since then, she has been having the same dream every single night. In that dream, someone gently whispers to her: \"Don’t forget the promise we made that summer…",
-    "image": "https://uploads.mangadex.org/covers/4dd13b7f-c1af-4088-8d4e-90b946e010cc/ca53b209-ddb3-4768-85f6-36d600112c85.jpg",
+    "summary": "After being defeated and captured, the dragon slayer Leon became a captive of the Silver Dragon Queen. With the awareness of death, he used forbidden magic to curse the queen, but unexpectedly, the queen lost control. \n\nHe thought that this would make the queen live with shame for the rest of her life, and it would be worthy of the dragon slayer's mission. \n\nBut two years later, when Leon opened his eyes, next to him was a little dragon girl with a tail...",
+    "image": "https://uploads.mangadex.org/covers/d41fe947-2e33-4b26-ac29-abc70fb08edb/90236063-df32-4fe1-b801-f65d7ee2e17d.jpg",
     "moods": []
   },
   {
-    "title": "The Wirepuller Gets Lucky in Happier Years",
-    "chapter": "Chapter 56",
+    "title": "At the End of the Hidden Greenery",
+    "chapter": "Chapter 45",
     "genre": [
-      "Drama",
-      "Fantasy",
       "Manhwa",
-      "Romance",
-      "Webtoons"
+      "Romance"
     ],
-    "summary": "When gifted fortune teller Park Doa dies, she transmigrates into the body of Bunnie, a curse absorber for the daughter of an archduke. As the new Bunnie, she befriends Demian, a boy prophesied to bring ruin to the empire. But when Bunnie reads Demian's fortune, she learns that, actually, he has the potential for greatness and prosperity, so she decides to shape him into the next emperor instead. Will these two be able to defy destiny and rewrite their futures? Or will the curse of fate prevail?",
-    "image": "https://uploads.mangadex.org/covers/7bac088f-2276-4804-84d0-51e174dd3757/54709cd3-db7f-436a-8d62-0b126627ffa5.jpg",
+    "summary": "She dedicated five years of her life serving as the Akarna of the temple while she was the crown prince’s lover.\n\n“Do you not understand? If you cannot give birth to an heir, then you can’t become the empress. It’s just… It’s just a political marriage. But you must understand that I love only you.”\n\nAnd yet, it’s as if he gave her something that’s perhaps nothing more than alms—the position of a concubine.\n\n‘Are you telling me that you’re going to marry another woman and make me a concubine? And you’re expecting me to just accept that?’\n\nWhen the carriage she was riding in rushed towards a cliff, she impulsively let herself fall. And when she opened her eyes again, she found herself at that place.\n\nThe forest where the empire’s most despised species lived.",
+    "image": "https://uploads.mangadex.org/covers/b12584fa-8ccd-4186-b523-9b41d23260e7/3565447c-4f54-47f7-8b14-c82e8b0d1876.jpg",
     "moods": []
   },
   {
-    "title": "I’m The Princess of All",
-    "chapter": "Chapter 89",
+    "title": "The Substitute Adopted Daughter is Finally Free!",
+    "chapter": "Chapter 35",
     "genre": [
       "Drama",
       "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Webtoons"
-    ],
-    "summary": "\"Everything for the Score\"—nicknamed \"Esco\"—is a renowned masterpiece in the world of yuri games. A boy who reincarnates into its world suddenly finds himself in the role of Sanjo Hiro, infamously known as \"the guy who gets in the way of yuri.\"\n\nHiro is a nuisance character who ends up ruined no matter which route he's in. To avoid triggering his death flags, he begins to train and search for a safe path—but for some reason, heroine events keep unfolding around him as the central figure...!?\n\n\"I don’t want a harem romcom! Just give me yuri! Let me see the yuri!\"\n\n[Official English Light Novel](https://yenpress.com/series/the-only-thing-i-d-do-in-a-no-boys-allowed-game-world-novel)",
-    "image": "https://uploads.mangadex.org/covers/93f59355-6c69-416f-a5fb-84927eb31d42/46e5fa6e-e76c-41d4-af3b-85ec58e15d90.jpg",
-    "moods": []
-  },
-  {
-    "title": "Forget Marriage, I’d Rather Go Bankrupt",
-    "chapter": "Chapter 31",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance",
-      "Shoujo",
-      "Webtoons"
+      "Romance"
     ],
     "summary": "",
     "image": "https://via.placeholder.com/280x420.png?text=No+Image",
     "moods": []
   },
   {
-    "title": "The Black Diary",
-    "chapter": "Chapter 36",
+    "title": "The Silent Sacrifice Princess And The Black Dragons Marriage",
+    "chapter": "Chapter 50",
     "genre": [
       "Drama",
       "Fantasy",
-      "Manhwa",
       "Romance"
     ],
-    "summary": "Fantasy series of short stories that involves animals:  \n  \nPet Doctor Atsushi Kirishima meets a cat-guy with tail, cat ears and an injured eye when he is searching for his runaway patient animal. Atsushi can not leave the cat-guy and takes the guy to his animal hospital with him.   \n  \nHattori, an apprentice of Atsushi's father, Kenzou finds a dog in the mountains and brings it back in a car. On the way home the dog changes into a girl.  \n  \nThe titles stories are:  \n  \nThe Sounds of a Bell Can Be Heard  \nThe Cat's Love  \nA Flicker of Light (two parts)  \nAmber's Diary (also known as Kohaku's Diary)  \nThe Delicate Pair (also known as Every Subtlety)  \n(Black Cat + White Dog) > Human  \n  \nTrouble Little Traveler  \nA cute unrelated shoujo short story about a boy meeting tiny aliens.",
-    "image": "https://uploads.mangadex.org/covers/d65c9534-4fb7-4a7f-a638-4a3619187916/31a36e3c-f0a1-47da-bba4-45371816bb6f.jpg",
+    "summary": "Ayame, born into a family of priestesses blessed by the Black Dragon God, possesses a unique ability to heal people through her voice. However, after the death of her parents, she is taken in by her uncle's family who mistreat her, leading to the loss of her voice. Her cousin Mari even takes over Ayame’s rightful position as priestess, and Ayame is eventually offered as a sacrifice to the Black Dragon.\n\n\"Why must I be killed like this?! Someone, please help me!\"\n\nHer desperate plea brought forth the Black Dragon from the sky. He descends and transforms into a handsome young man, gently takes Ayame's hand, and flies away with her.\n\nThus begins Ayame’s new life as the bride of Saku, the Black Dragon, living in his mansion situated between the celestial and human worlds. However, Ayame’s cousin Mari, envious of her new status as the beautiful bride of the Black Dragon schemes to steal him away...\n\nA Japanese-style Cinderella story of a gentle-hearted girl who lost her voice and a proud yet compassionate Black Dragon.\n\n---\nThe Kozuki family was granted the Black Dragon's blessing, allowing them to heal the sick and purify impurity with their voices alone. But Ayame's life shatters after her parents' death, leaving her at the mercy of her cruel aunt and uncle, who tortured her until she lost her voice. As their daughter, Mari, rises to become the new priestess, Ayame is offered as a sacrifice to the Black Dragon.\n\n\"Why do I have to die like this? Please help me!\"\n\nIn response to her desperate plea, the Black Dragon appears as a striking man and takes her hand, whisking her away to his realm. Chosen to be the bride of the Black Dragon Saku, Ayame finds herself in the enchanting Black Dragon Manor, suspended between the heavens and the human world. But jealousy ignites in Mari, who vows to reclaim Saku and make Ayame suffer once more.",
+    "image": "https://uploads.mangadex.org/covers/60f40c6d-20b0-4cc1-af91-0bd9912aa764/e16d6b0b-3996-4ec8-a066-cc40ed3469a6.jpg",
     "moods": []
   },
   {
-    "title": "Among the Filth",
-    "chapter": "Chapter 27",
-    "genre": [
-      "Fantasy",
-      "Romance"
-    ],
-    "summary": "Blessed be the devout who remain chaste among the tainted. A pious young debutante of the Kingdom of Brandt, Elke Eberhardt prays each day as she vies for the sacred title of Pontifex, which grants authority over the nation’s faith. Unfortunately for Elke, fate has other, crueler plans—as she catches the eye of Sir Reiner Mikhel, a notorious womanizer who has seduced countless noblewomen in Brandt. Despite her firm resolve to remain virtuous, Elke finds herself increasingly drawn to the temptations of this dark, ambitious nobleman, whose seductive gaze conceals his true intentions.",
-    "image": "https://uploads.mangadex.org/covers/bf91d0ab-6a1a-409a-bd34-daf24a943769/96a69820-1a9d-4665-a3e5-f131168b9628.jpg",
-    "moods": []
-  },
-  {
-    "title": "The 101st Love Confession",
-    "chapter": "Chapter 22",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "Manhwa",
-      "Romance"
-    ],
-    "summary": "Lucia Agnes has confessed to her longtime crush 98 times over the past 13 years.\n\nAnd Herwin Peneus has always turned her down.\n\nAfter her 99th confession is also rejected, Lucia finally decides to give up on Herwin and agrees to meet a suitor chosen by her parents.\n\nBut just as she makes up her mind to get engaged to this new match, things start to take an unexpected turn...",
-    "image": "https://uploads.mangadex.org/covers/647d2e7a-2151-401c-9c54-a395cd06fb7a/9ee0e513-5937-427a-a038-550f21634cac.png",
-    "moods": []
-  },
-  {
-    "title": "I will break ties with the harmful sister",
-    "chapter": "Chapter 38",
-    "genre": [
-      "Drama",
-      "Fantasy",
-      "MANGA",
-      "Manga",
-      "Romance"
-    ],
-    "summary": "Clara, who had been oppressed for many years by her tyrant sister, Enefia. Even their parents obeyed the sister's wishes, and Clara had no place in the Astraia Baron’s household despite it being her home. In the midst of this, Clara's sister's engagement to a prominent nobleman was decided, and Clara finally felt relieved, believing she would be freed from this hell. However, even after the engagement, the sister's unfaithful nature did not change, and fearing the fiancé might discover the inconvenient truth, the parents ordered Clara to monitor her sister. Despite Clara's efforts, her sister became pregnant with another man's child. The engagement was broken off, and the sister quickly eloped somewhere, leaving the Astraia Baron’s household with a huge debt, angering the influential nobleman. In order to repay her family's debts, Clara was sold to a sadistic noble and faced severe torture, ultimately approaching death.\n\n\"If I could do it over again... This time, I will definitely kill you!\" When Clara opened her eyes again, time had rewound to the day of her sister’s engagement. Revived with strong determination, Clara pushed back against her sister's insidious bullying and ran to change the worst possible future.",
-    "image": "https://uploads.mangadex.org/covers/999e2a25-43f8-4f88-bf71-5617a2e7468c/2f509811-d189-40cf-8d50-db40d0e3f32a.jpg",
-    "moods": []
-  },
-  {
-    "title": "Ice Lord",
-    "chapter": "Chapter 40",
+    "title": "Death Penalty",
+    "chapter": "Chapter 57",
     "genre": [
       "Action",
       "Adventure",
       "Fantasy"
     ],
-    "summary": "At the young age of twenty, Seol Mudok, a master swordsman, became the Lord of the Northern Sea Ice Palace. Plunged into despair after the death of his lover, he discovers that with the legendary flower, the “Lotus of Love,” that his deceased lover has been reincarnated. In his quest, he descends into another world…",
-    "image": "https://uploads.mangadex.org/covers/8ab0a835-175e-477c-9f46-ddec56b27739/5012b4fb-10d4-4c13-baef-beb5f721fc9d.png",
+    "summary": "In the present day, tower dungeons called Magic Towers have appeared throughout the world.\n\nTakamichi Yoshito is a convenience store clerk. The manager yells at him every day, making his life miserable. Yoshito dreams of making a fortune, and soon after the Magic Towers appear. He becomes a Challenger of the towers, but he has no savings to invest in weapons or equipment, leaving him completely late to the game.\n\nAiming for a quick turnaround, Yoshito sells his real-life savings and the few items he has in the tower, and buys the [Infinite Revival] skill from a shady merchant. This skill allows him to revive himself within the dungeon. However, [Infinite Revival] had a hidden disadvantage.\n\nWhen reviving, the user is randomly given a [Death Penalty], a permanent debuff so strong that once it is applied, the user is no longer able to work as an adventurer. Yoshito despairs over the cursed skill, but his situation changes drastically when he obtains the rare skill [Inversion] in a hidden room of the dungeon.\n\nThe skill [Inversion] reversed the heavy negative effects of [Death Penalty]'s permanent debuff caused by Infinite Revival and turned them all into positive stats!",
+    "image": "https://uploads.mangadex.org/covers/fdc17daf-6192-4710-8ce5-d8fa87946d74/c2281a29-34df-48e1-b3fc-1acf63e69faf.jpg",
+    "moods": []
+  },
+  {
+    "title": "Holy Emperor’s Grandson Is A Necromancer",
+    "chapter": "Chapter 87",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Historical",
+      "Isekai",
+      "Manhwa",
+      "Reincarnation",
+      "Shoujo",
+      "Shounen",
+      "Supernatural"
+    ],
+    "summary": "After a near-death experience, something has changed about the Holy Emperor’s troublemaker of a grandson. To be precise, his body was taken over by a Korean man who died while playing a VR video game! But when his necromancer character is mixed with a Holy Prince’s blood, things start getting funky. The zombies he makes are incredibly nice, his curses start healing people, and the girl he saved from being turned into a zombie suddenly gains super strength. Now he has to play the hero, but he’d really rather just go for a nap.",
+    "image": "https://uploads.mangadex.org/covers/cb57be68-78ed-4c69-916b-658fc6def14f/e458c3a0-30b7-41f4-9bbd-1fb764644aea.jpg",
+    "moods": []
+  },
+  {
+    "title": "Tyrant of the Otherworld Prison: My Shadow Can Evolve Infinitely",
+    "chapter": "Chapter 28",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Magical",
+      "Vampire"
+    ],
+    "summary": "In the year 2035, rifts to alien realms tore through the world’s defenses. Swarms of insectoids and beastkin ravaged the land, and humanity struggled to survive through the strength of “Evolvers.” Li Yi was betrayed by his teammates during an attack by alien beings and left for dead. On the brink of death, he awakened the “Titan Shadow” System—his shadow could evolve without limits! It could devour ores to enhance defense, tear through enemies to form deadly blades, and even split into an army of shadow soldiers… From insect hives to haunted lands, wherever his shadow passed, enemies were shredded into pulp. This is the revenge of the weak—begun with a shadow that devours all.",
+    "image": "https://uploads.mangadex.org/covers/dfef4b7c-829a-4679-9382-79f073055312/e596bd6a-4956-43ab-adaa-f5e2f4615459.jpg",
     "moods": []
   }
 ]
